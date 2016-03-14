@@ -10,6 +10,25 @@
 		BC9B549A1C97505B0014A037 /* MFCocoaExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54991C97505B0014A037 /* MFCocoaExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC9B54A11C97505B0014A037 /* MFCocoaExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9B54961C97505A0014A037 /* MFCocoaExtras.framework */; };
 		BC9B54A61C97505B0014A037 /* MFCocoaExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54A51C97505B0014A037 /* MFCocoaExtrasTests.m */; };
+		BC9B54C51C9751980014A037 /* UIBarButtonItem+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54B21C9751980014A037 /* UIBarButtonItem+Extras.h */; };
+		BC9B54C61C9751980014A037 /* UIBarButtonItem+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54B31C9751980014A037 /* UIBarButtonItem+Extras.m */; };
+		BC9B54C71C9751980014A037 /* UIButton+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54B41C9751980014A037 /* UIButton+Extras.h */; };
+		BC9B54C81C9751980014A037 /* UIButton+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54B51C9751980014A037 /* UIButton+Extras.m */; };
+		BC9B54C91C9751980014A037 /* UIImage+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54B61C9751980014A037 /* UIImage+Extras.h */; };
+		BC9B54CA1C9751980014A037 /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54B71C9751980014A037 /* UIImage+Extras.m */; };
+		BC9B54CB1C9751980014A037 /* UIView+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54B81C9751980014A037 /* UIView+Extras.h */; };
+		BC9B54CC1C9751980014A037 /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54B91C9751980014A037 /* UIView+Extras.m */; };
+		BC9B54CD1C9751980014A037 /* CGExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54BB1C9751980014A037 /* CGExtras.h */; };
+		BC9B54CE1C9751980014A037 /* CGExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54BC1C9751980014A037 /* CGExtras.m */; };
+		BC9B54CF1C9751980014A037 /* NSUIColor-Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54BD1C9751980014A037 /* NSUIColor-Extras.h */; };
+		BC9B54D01C9751980014A037 /* NSUIColor-Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54BE1C9751980014A037 /* NSUIColor-Extras.m */; };
+		BC9B54D11C9751980014A037 /* MFCombinedColor.c in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54BF1C9751980014A037 /* MFCombinedColor.c */; };
+		BC9B54D21C9751980014A037 /* MFCombinedColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54C01C9751980014A037 /* MFCombinedColor.h */; };
+		BC9B54D31C9751980014A037 /* MFNSUITypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54C11C9751980014A037 /* MFNSUITypes.h */; };
+		BC9B54D41C9751980014A037 /* MFSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54C31C9751980014A037 /* MFSecurity.h */; };
+		BC9B54D51C9751980014A037 /* MFSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54C41C9751980014A037 /* MFSecurity.m */; };
+		BC9B54D71C9752DC0014A037 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BC9B54D61C9752DC0014A037 /* Podfile */; };
+		CFFABA4348BA58E457232525 /* libPods-MFCocoaExtras.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0B44CD8565B29B0FCD4879 /* libPods-MFCocoaExtras.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +42,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F0B44CD8565B29B0FCD4879 /* libPods-MFCocoaExtras.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MFCocoaExtras.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		895A013A4CD7367E3C237E61 /* Pods-MFCocoaExtras.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFCocoaExtras.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFCocoaExtras/Pods-MFCocoaExtras.release.xcconfig"; sourceTree = "<group>"; };
+		AB7FEEBA8E3B237F3E1E762C /* Pods-MFCocoaExtras.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFCocoaExtras.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFCocoaExtras/Pods-MFCocoaExtras.debug.xcconfig"; sourceTree = "<group>"; };
 		BC9B54961C97505A0014A037 /* MFCocoaExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MFCocoaExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9B54991C97505B0014A037 /* MFCocoaExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFCocoaExtras.h; sourceTree = "<group>"; };
 		BC9B549B1C97505B0014A037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9B54A01C97505B0014A037 /* MFCocoaExtrasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFCocoaExtrasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9B54A51C97505B0014A037 /* MFCocoaExtrasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFCocoaExtrasTests.m; sourceTree = "<group>"; };
 		BC9B54A71C97505B0014A037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9B54B21C9751980014A037 /* UIBarButtonItem+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extras.h"; sourceTree = "<group>"; };
+		BC9B54B31C9751980014A037 /* UIBarButtonItem+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extras.m"; sourceTree = "<group>"; };
+		BC9B54B41C9751980014A037 /* UIButton+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extras.h"; sourceTree = "<group>"; };
+		BC9B54B51C9751980014A037 /* UIButton+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extras.m"; sourceTree = "<group>"; };
+		BC9B54B61C9751980014A037 /* UIImage+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extras.h"; sourceTree = "<group>"; };
+		BC9B54B71C9751980014A037 /* UIImage+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extras.m"; sourceTree = "<group>"; };
+		BC9B54B81C9751980014A037 /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extras.h"; sourceTree = "<group>"; };
+		BC9B54B91C9751980014A037 /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
+		BC9B54BB1C9751980014A037 /* CGExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGExtras.h; sourceTree = "<group>"; };
+		BC9B54BC1C9751980014A037 /* CGExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGExtras.m; sourceTree = "<group>"; };
+		BC9B54BD1C9751980014A037 /* NSUIColor-Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUIColor-Extras.h"; sourceTree = "<group>"; };
+		BC9B54BE1C9751980014A037 /* NSUIColor-Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUIColor-Extras.m"; sourceTree = "<group>"; };
+		BC9B54BF1C9751980014A037 /* MFCombinedColor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MFCombinedColor.c; sourceTree = "<group>"; };
+		BC9B54C01C9751980014A037 /* MFCombinedColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCombinedColor.h; sourceTree = "<group>"; };
+		BC9B54C11C9751980014A037 /* MFNSUITypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFNSUITypes.h; sourceTree = "<group>"; };
+		BC9B54C31C9751980014A037 /* MFSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSecurity.h; sourceTree = "<group>"; };
+		BC9B54C41C9751980014A037 /* MFSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSecurity.m; sourceTree = "<group>"; };
+		BC9B54D61C9752DC0014A037 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFFABA4348BA58E457232525 /* libPods-MFCocoaExtras.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +91,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAEA664FDFD9DA8BDD1EF402 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB7FEEBA8E3B237F3E1E762C /* Pods-MFCocoaExtras.debug.xcconfig */,
+				895A013A4CD7367E3C237E61 /* Pods-MFCocoaExtras.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC9B548C1C97505A0014A037 = {
 			isa = PBXGroup;
 			children = (
+				BC9B54D61C9752DC0014A037 /* Podfile */,
 				BC9B54981C97505A0014A037 /* MFCocoaExtras */,
 				BC9B54A41C97505B0014A037 /* MFCocoaExtrasTests */,
 				BC9B54971C97505A0014A037 /* Products */,
+				AAEA664FDFD9DA8BDD1EF402 /* Pods */,
+				F2FBB107CF445525FA3C8E2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				BC9B54991C97505B0014A037 /* MFCocoaExtras.h */,
+				BC9B54B01C9751980014A037 /* Sources */,
 				BC9B549B1C97505B0014A037 /* Info.plist */,
 			);
 			path = MFCocoaExtras;
@@ -86,6 +140,62 @@
 			path = MFCocoaExtrasTests;
 			sourceTree = "<group>";
 		};
+		BC9B54B01C9751980014A037 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B54B11C9751980014A037 /* CocoaTouch+Extras */,
+				BC9B54BA1C9751980014A037 /* Graphics */,
+				BC9B54C21C9751980014A037 /* Security */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BC9B54B11C9751980014A037 /* CocoaTouch+Extras */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B54B21C9751980014A037 /* UIBarButtonItem+Extras.h */,
+				BC9B54B31C9751980014A037 /* UIBarButtonItem+Extras.m */,
+				BC9B54B41C9751980014A037 /* UIButton+Extras.h */,
+				BC9B54B51C9751980014A037 /* UIButton+Extras.m */,
+				BC9B54B61C9751980014A037 /* UIImage+Extras.h */,
+				BC9B54B71C9751980014A037 /* UIImage+Extras.m */,
+				BC9B54B81C9751980014A037 /* UIView+Extras.h */,
+				BC9B54B91C9751980014A037 /* UIView+Extras.m */,
+			);
+			path = "CocoaTouch+Extras";
+			sourceTree = "<group>";
+		};
+		BC9B54BA1C9751980014A037 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B54BB1C9751980014A037 /* CGExtras.h */,
+				BC9B54BC1C9751980014A037 /* CGExtras.m */,
+				BC9B54BD1C9751980014A037 /* NSUIColor-Extras.h */,
+				BC9B54BE1C9751980014A037 /* NSUIColor-Extras.m */,
+				BC9B54BF1C9751980014A037 /* MFCombinedColor.c */,
+				BC9B54C01C9751980014A037 /* MFCombinedColor.h */,
+				BC9B54C11C9751980014A037 /* MFNSUITypes.h */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		BC9B54C21C9751980014A037 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B54C31C9751980014A037 /* MFSecurity.h */,
+				BC9B54C41C9751980014A037 /* MFSecurity.m */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		F2FBB107CF445525FA3C8E2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F0B44CD8565B29B0FCD4879 /* libPods-MFCocoaExtras.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +203,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9B54C51C9751980014A037 /* UIBarButtonItem+Extras.h in Headers */,
+				BC9B54CD1C9751980014A037 /* CGExtras.h in Headers */,
+				BC9B54D21C9751980014A037 /* MFCombinedColor.h in Headers */,
+				BC9B54C91C9751980014A037 /* UIImage+Extras.h in Headers */,
+				BC9B54C71C9751980014A037 /* UIButton+Extras.h in Headers */,
+				BC9B54CF1C9751980014A037 /* NSUIColor-Extras.h in Headers */,
 				BC9B549A1C97505B0014A037 /* MFCocoaExtras.h in Headers */,
+				BC9B54D31C9751980014A037 /* MFNSUITypes.h in Headers */,
+				BC9B54CB1C9751980014A037 /* UIView+Extras.h in Headers */,
+				BC9B54D41C9751980014A037 /* MFSecurity.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,10 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC9B54AA1C97505B0014A037 /* Build configuration list for PBXNativeTarget "MFCocoaExtras" */;
 			buildPhases = (
+				EC10C9FEBE1763F4BAE49019 /* Check Pods Manifest.lock */,
 				BC9B54911C97505A0014A037 /* Sources */,
 				BC9B54921C97505A0014A037 /* Frameworks */,
 				BC9B54931C97505A0014A037 /* Headers */,
 				BC9B54941C97505A0014A037 /* Resources */,
+				91CE4DD1F1710D69D9FA41B0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9B54D71C9752DC0014A037 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,11 +310,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		91CE4DD1F1710D69D9FA41B0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFCocoaExtras/Pods-MFCocoaExtras-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC10C9FEBE1763F4BAE49019 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC9B54911C97505A0014A037 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9B54D01C9751980014A037 /* NSUIColor-Extras.m in Sources */,
+				BC9B54CE1C9751980014A037 /* CGExtras.m in Sources */,
+				BC9B54D51C9751980014A037 /* MFSecurity.m in Sources */,
+				BC9B54C81C9751980014A037 /* UIButton+Extras.m in Sources */,
+				BC9B54D11C9751980014A037 /* MFCombinedColor.c in Sources */,
+				BC9B54CC1C9751980014A037 /* UIView+Extras.m in Sources */,
+				BC9B54CA1C9751980014A037 /* UIImage+Extras.m in Sources */,
+				BC9B54C61C9751980014A037 /* UIBarButtonItem+Extras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +468,7 @@
 		};
 		BC9B54AB1C97505B0014A037 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7FEEBA8E3B237F3E1E762C /* Pods-MFCocoaExtras.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -321,6 +485,7 @@
 		};
 		BC9B54AC1C97505B0014A037 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895A013A4CD7367E3C237E61 /* Pods-MFCocoaExtras.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -374,6 +539,7 @@
 				BC9B54AC1C97505B0014A037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC9B54AD1C97505B0014A037 /* Build configuration list for PBXNativeTarget "MFCocoaExtrasTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +548,7 @@
 				BC9B54AF1C97505B0014A037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
