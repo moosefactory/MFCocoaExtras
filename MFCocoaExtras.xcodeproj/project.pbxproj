@@ -68,7 +68,7 @@
 		BC9B54C11C9751980014A037 /* MFNSUITypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFNSUITypes.h; sourceTree = "<group>"; };
 		BC9B54C31C9751980014A037 /* MFSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSecurity.h; sourceTree = "<group>"; };
 		BC9B54C41C9751980014A037 /* MFSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSecurity.m; sourceTree = "<group>"; };
-		BC9B54D61C9752DC0014A037 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BC9B54D61C9752DC0014A037 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC9B54D81C9757650014A037 /* appledoc.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = appledoc.sh; sourceTree = "<group>"; };
 		BC9B54D91C9757650014A037 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BC9B54DA1C9757650014A037 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -610,6 +610,7 @@
 				BC9B54DF1C975C3D0014A037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

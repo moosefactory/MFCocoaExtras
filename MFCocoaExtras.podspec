@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/moosefactory_eu'
 
     s.ios.deployment_target = '6.0'
-    s.osx.deployment_target = '10.8'
+# s.osx.deployment_target = '10.8'
     s.requires_arc = true
 
   s.source_files = 'MFCocoaExtras/**/*'
