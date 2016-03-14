@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C8C74608C6D7F4F3D4258B2F952858 /* NSData+MFExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000158B4B45D0BB4A6387C6AE8F346F /* NSData+MFExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DB3632DD044237C7EF18232C2A482E3 /* MFLatLongFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF15CE3CB7CC6A353C4F8CA8756AD7AA /* MFLatLongFormatter.m */; };
+		10C57A16116147592E18EC88152B5BC9 /* MFChronoTimeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F22184B67251B30D7E4D095A89763F41 /* MFChronoTimeFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		164D96F9FF1E61B4CFEFC894999FBCD6 /* NSDictionary+MFExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C39531E2D64287E019E5EB50CD71AB /* NSDictionary+MFExtras.m */; };
+		1663BAA5384794674E664E2056E71D89 /* NSArray+MFExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = E661631DA9E83A5946FB8C2E51E47B27 /* NSArray+MFExtras.m */; };
+		18699A1E1EB0C7C957BF0B596F3BB96B /* MFTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 129817286A3DE10997E8CFF967978357 /* MFTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EF41862B5F6E69FFE15DA4BB76654C2 /* NSDictionary+MFExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA0A92CA30B41FEEA36EB7F7E8292BD /* NSDictionary+MFExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		274E8A5C3C8A3DA7484B2A2083B4B34F /* MFFormatters.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0AEFE3B142904D0534BB06E5767543 /* MFFormatters.m */; };
+		313A3982AEFABEC3D14B5B4DF9C93CEB /* NSString+MFExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 12184C94132D900027C0E38F4AA80C11 /* NSString+MFExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35FBB65093125DFC11AD61162DD6FAE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		361D6F4700945E2742F807E80C0F8C1E /* MFFormatters.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F9F8E83EABC946BD22F50972D0002B /* MFFormatters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36E5210F0C25485B5BF980F4226C1FCD /* MFChronoTimeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0997E234F6ACDDE6AC88762810366FD6 /* MFChronoTimeFormatter.m */; };
+		3FFD5CDE05E16925F064C7F8387061DB /* NSDate+MFExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 643169822EAC6A20B69C61B7F7D794DE /* NSDate+MFExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		456566032E21BFDCE98732EB173B3451 /* MFPeriod.h in Headers */ = {isa = PBXBuildFile; fileRef = B57847F9848A7437A94A45C47B5D1869 /* MFPeriod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46D70A44B7189E3C0B9781884735F3BE /* Pods-MFCocoaExtras-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A4B83A7C63869355183383F72B4D90 /* Pods-MFCocoaExtras-dummy.m */; };
+		588EEE229DED9350550BA6AE57B2A731 /* MFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = A772BFA023F1EF1103D7BF37244FA044 /* MFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E9F9F9EBFC9E6707570F1653477CA52 /* MFDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFF28C68CC215C7621DC3467BA0D8E1 /* MFDateUtils.m */; };
+		5F8BCC379B0DB0E0379D443577E12FBF /* NSArray+MFExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6E341D44C2E74E7E2653CA909B501F /* NSArray+MFExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FA83444357A7F54685E469CBA66F30B /* MFDateRange.h in Headers */ = {isa = PBXBuildFile; fileRef = F6FB617101E490A3E7958AE419AB6EA3 /* MFDateRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		644BD2BD4F161357779BC74DB3DCEB15 /* MFDateRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD83C6A183395246790D5B2E37ABD9C /* MFDateRange.m */; };
+		676382921E0D829ECB53467F97D9309D /* MFSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = CD169AB19EFE04812C939248C4D80B2D /* MFSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B7FD27375EE6DA42EAF18BCFB66A0E2 /* NSFileManager+MFExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 960BE51FACDB4F18A8E08AF21D4810A5 /* NSFileManager+MFExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F0F1C529F448BD8C0F478927E40E18A /* MFSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CE222D5FD824A30B393F4536A5DF0C /* MFSystem.m */; };
+		8134D113AB58CF3D5670A15B39CA0F53 /* MFFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F647698D52B00DEA7A668A2B24FE3440 /* MFFoundation-dummy.m */; };
+		90CAF01751CC7B6749458756A9F419FE /* MFFastTrigo.c in Sources */ = {isa = PBXBuildFile; fileRef = 5260304157123487D87A5DA14E4966C0 /* MFFastTrigo.c */; };
+		92DA787F250BF3E04FC91B4D6B44E636 /* MFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B797FBA6B9B48E65A97AA28E664A1 /* MFFoundation.m */; };
+		99A59F063A077BEF718CBC5BA072B599 /* MFMathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E95D2A9F2F7E75F0756EB1613A0B4E4 /* MFMathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A788D33C91829365B79E5F8B4D42ED45 /* NSData+MFExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B2A09B63BD635C8DBD2C8F5DD5A57 /* NSData+MFExtras.m */; };
+		ABD5C323BB7AA9CD85C767DFD43C7B2D /* MFFastTrigo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0310E92D46BAB42AA1984591124B6AE6 /* MFFastTrigo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD540EE4FC1FBE7933A7667965FFD26F /* NSString+MFExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B32E897588641EA7216B8C1119927 /* NSString+MFExtras.m */; };
+		AE6F9B0EF43A1B19A2AF1DDD27D51425 /* MFLatLongFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E8B1B223A02B1232BF133772E9E303 /* MFLatLongFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4FA472399D13E7756F43B5B85135712 /* MFMathUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 566D6E49C41ADEA4DD056641D0C416AE /* MFMathUtilities.c */; };
+		DDF627A4387985BC057D26F8977C74FB /* MFExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D2E30DE2124515CE2D27DDE20C9B23 /* MFExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4C95F6A644BA285E2C19A2244CD9C54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		EB9DC103A4013C5CA3162ED5DEA75DB0 /* NSDate+MFExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = C552ED92B26D4F8567123E7633394549 /* NSDate+MFExtras.m */; };
+		EC5CAFF2A83FED55D08A82D3C69DAD79 /* NSFileManager+MFExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F359220D229717E887279DCB7F22C03 /* NSFileManager+MFExtras.m */; };
+		EDA2B8200C2A54C65C89D4BCC90F29C1 /* MFPeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7F6FF4497B6CF43B9D6041D31B33B2 /* MFPeriod.m */; };
+		F5E960DA5FF6D4A87395EA0854D6FA68 /* MFDateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2C647594E285F89C02225A14F9A2F9 /* MFDateUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86EF9063E15F15070012A32301E58598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88D8008CB3F01DD2986A4E2874DCEFB6;
+			remoteInfo = MFFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0000158B4B45D0BB4A6387C6AE8F346F /* NSData+MFExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+MFExtras.h"; path = "MFFoundation/Extras/NSData+MFExtras.h"; sourceTree = "<group>"; };
+		0310E92D46BAB42AA1984591124B6AE6 /* MFFastTrigo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFFastTrigo.h; path = MFFoundation/Maths/MFFastTrigo.h; sourceTree = "<group>"; };
+		0997E234F6ACDDE6AC88762810366FD6 /* MFChronoTimeFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFChronoTimeFormatter.m; path = "MFFoundation/Date and Formatters/MFChronoTimeFormatter.m"; sourceTree = "<group>"; };
+		12184C94132D900027C0E38F4AA80C11 /* NSString+MFExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MFExtras.h"; path = "MFFoundation/Extras/NSString+MFExtras.h"; sourceTree = "<group>"; };
+		129817286A3DE10997E8CFF967978357 /* MFTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFTypes.h; path = MFFoundation/Types/MFTypes.h; sourceTree = "<group>"; };
+		14A4B83A7C63869355183383F72B4D90 /* Pods-MFCocoaExtras-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MFCocoaExtras-dummy.m"; sourceTree = "<group>"; };
+		2FD83C6A183395246790D5B2E37ABD9C /* MFDateRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFDateRange.m; path = MFFoundation/Types/MFDateRange.m; sourceTree = "<group>"; };
+		35B4C34457596275FEC2EC0090E28855 /* libMFFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMFFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA0A92CA30B41FEEA36EB7F7E8292BD /* NSDictionary+MFExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MFExtras.h"; path = "MFFoundation/Extras/NSDictionary+MFExtras.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		51C39531E2D64287E019E5EB50CD71AB /* NSDictionary+MFExtras.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MFExtras.m"; path = "MFFoundation/Extras/NSDictionary+MFExtras.m"; sourceTree = "<group>"; };
+		5260304157123487D87A5DA14E4966C0 /* MFFastTrigo.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = MFFastTrigo.c; path = MFFoundation/Maths/MFFastTrigo.c; sourceTree = "<group>"; };
+		52E8B1B223A02B1232BF133772E9E303 /* MFLatLongFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFLatLongFormatter.h; path = "MFFoundation/Date and Formatters/MFLatLongFormatter.h"; sourceTree = "<group>"; };
+		566D6E49C41ADEA4DD056641D0C416AE /* MFMathUtilities.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = MFMathUtilities.c; path = MFFoundation/Maths/MFMathUtilities.c; sourceTree = "<group>"; };
+		58379BDA3262A306AFB55EDF5EB5376E /* Pods-MFCocoaExtras-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MFCocoaExtras-frameworks.sh"; sourceTree = "<group>"; };
+		5E7F6FF4497B6CF43B9D6041D31B33B2 /* MFPeriod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFPeriod.m; path = MFFoundation/Types/MFPeriod.m; sourceTree = "<group>"; };
+		5E95D2A9F2F7E75F0756EB1613A0B4E4 /* MFMathUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFMathUtilities.h; path = MFFoundation/Maths/MFMathUtilities.h; sourceTree = "<group>"; };
+		643169822EAC6A20B69C61B7F7D794DE /* NSDate+MFExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+MFExtras.h"; path = "MFFoundation/Extras/NSDate+MFExtras.h"; sourceTree = "<group>"; };
+		6F3B797FBA6B9B48E65A97AA28E664A1 /* MFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFFoundation.m; path = MFFoundation/MFFoundation.m; sourceTree = "<group>"; };
+		7CFF28C68CC215C7621DC3467BA0D8E1 /* MFDateUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFDateUtils.m; path = "MFFoundation/Date and Formatters/MFDateUtils.m"; sourceTree = "<group>"; };
+		7F359220D229717E887279DCB7F22C03 /* NSFileManager+MFExtras.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+MFExtras.m"; path = "MFFoundation/Extras/NSFileManager+MFExtras.m"; sourceTree = "<group>"; };
+		960BE51FACDB4F18A8E08AF21D4810A5 /* NSFileManager+MFExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+MFExtras.h"; path = "MFFoundation/Extras/NSFileManager+MFExtras.h"; sourceTree = "<group>"; };
+		9B2C647594E285F89C02225A14F9A2F9 /* MFDateUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFDateUtils.h; path = "MFFoundation/Date and Formatters/MFDateUtils.h"; sourceTree = "<group>"; };
+		A772BFA023F1EF1103D7BF37244FA044 /* MFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFFoundation.h; path = MFFoundation/MFFoundation.h; sourceTree = "<group>"; };
+		B57847F9848A7437A94A45C47B5D1869 /* MFPeriod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFPeriod.h; path = MFFoundation/Types/MFPeriod.h; sourceTree = "<group>"; };
+		B8D2E30DE2124515CE2D27DDE20C9B23 /* MFExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFExtras.h; path = MFFoundation/Extras/MFExtras.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA6E341D44C2E74E7E2653CA909B501F /* NSArray+MFExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MFExtras.h"; path = "MFFoundation/Extras/NSArray+MFExtras.h"; sourceTree = "<group>"; };
+		BC0B2A09B63BD635C8DBD2C8F5DD5A57 /* NSData+MFExtras.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+MFExtras.m"; path = "MFFoundation/Extras/NSData+MFExtras.m"; sourceTree = "<group>"; };
+		C552ED92B26D4F8567123E7633394549 /* NSDate+MFExtras.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+MFExtras.m"; path = "MFFoundation/Extras/NSDate+MFExtras.m"; sourceTree = "<group>"; };
+		C76630FEE23FFAB6215514C2E9C2409B /* libPods-MFCocoaExtras.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MFCocoaExtras.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0AEFE3B142904D0534BB06E5767543 /* MFFormatters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFFormatters.m; path = "MFFoundation/Date and Formatters/MFFormatters.m"; sourceTree = "<group>"; };
+		CD0B32E897588641EA7216B8C1119927 /* NSString+MFExtras.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MFExtras.m"; path = "MFFoundation/Extras/NSString+MFExtras.m"; sourceTree = "<group>"; };
+		CD169AB19EFE04812C939248C4D80B2D /* MFSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFSystem.h; path = MFFoundation/System/MFSystem.h; sourceTree = "<group>"; };
+		CE1FFAECE43BA2E7D9F22ED8FB808EA8 /* MFFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFFoundation-prefix.pch"; sourceTree = "<group>"; };
+		D52E6036E39A2A08419522B43E19B964 /* MFFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MFFoundation.xcconfig; sourceTree = "<group>"; };
+		DD63C9F3455DCF9E9CA6DEE65623F08C /* Pods-MFCocoaExtras-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFCocoaExtras-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF15CE3CB7CC6A353C4F8CA8756AD7AA /* MFLatLongFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFLatLongFormatter.m; path = "MFFoundation/Date and Formatters/MFLatLongFormatter.m"; sourceTree = "<group>"; };
+		E1F9F8E83EABC946BD22F50972D0002B /* MFFormatters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFFormatters.h; path = "MFFoundation/Date and Formatters/MFFormatters.h"; sourceTree = "<group>"; };
+		E661631DA9E83A5946FB8C2E51E47B27 /* NSArray+MFExtras.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MFExtras.m"; path = "MFFoundation/Extras/NSArray+MFExtras.m"; sourceTree = "<group>"; };
+		E8CE222D5FD824A30B393F4536A5DF0C /* MFSystem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFSystem.m; path = MFFoundation/System/MFSystem.m; sourceTree = "<group>"; };
+		E9D855CBCF95577C578933A7F3BB446A /* Pods-MFCocoaExtras.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFCocoaExtras.debug.xcconfig"; sourceTree = "<group>"; };
+		F22184B67251B30D7E4D095A89763F41 /* MFChronoTimeFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFChronoTimeFormatter.h; path = "MFFoundation/Date and Formatters/MFChronoTimeFormatter.h"; sourceTree = "<group>"; };
+		F647698D52B00DEA7A668A2B24FE3440 /* MFFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MFFoundation-dummy.m"; sourceTree = "<group>"; };
+		F6FB5ABE24E4BAE5FC5A5C6F07CADC37 /* Pods-MFCocoaExtras-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MFCocoaExtras-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6FB617101E490A3E7958AE419AB6EA3 /* MFDateRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFDateRange.h; path = MFFoundation/Types/MFDateRange.h; sourceTree = "<group>"; };
+		F946467076C53D71C2A2496670ED1BEE /* Pods-MFCocoaExtras.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFCocoaExtras.release.xcconfig"; sourceTree = "<group>"; };
+		FD6D1EFD6D635B7F76E4F9C8223EEDD7 /* Pods-MFCocoaExtras-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MFCocoaExtras-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C3E03856F742C2FE20991C6888BB06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FBB65093125DFC11AD61162DD6FAE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EF35ADAF769C4EED58267587350BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C95F6A644BA285E2C19A2244CD9C54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35A0D88C2797C0358B0D83BCF23831C3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F38CD68207CF0C9E4700856A3D3F9FB8 /* Pods-MFCocoaExtras */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		51AF19775AEF58C627872CECA886E477 /* MFFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				F22184B67251B30D7E4D095A89763F41 /* MFChronoTimeFormatter.h */,
+				0997E234F6ACDDE6AC88762810366FD6 /* MFChronoTimeFormatter.m */,
+				F6FB617101E490A3E7958AE419AB6EA3 /* MFDateRange.h */,
+				2FD83C6A183395246790D5B2E37ABD9C /* MFDateRange.m */,
+				9B2C647594E285F89C02225A14F9A2F9 /* MFDateUtils.h */,
+				7CFF28C68CC215C7621DC3467BA0D8E1 /* MFDateUtils.m */,
+				B8D2E30DE2124515CE2D27DDE20C9B23 /* MFExtras.h */,
+				5260304157123487D87A5DA14E4966C0 /* MFFastTrigo.c */,
+				0310E92D46BAB42AA1984591124B6AE6 /* MFFastTrigo.h */,
+				E1F9F8E83EABC946BD22F50972D0002B /* MFFormatters.h */,
+				CC0AEFE3B142904D0534BB06E5767543 /* MFFormatters.m */,
+				A772BFA023F1EF1103D7BF37244FA044 /* MFFoundation.h */,
+				6F3B797FBA6B9B48E65A97AA28E664A1 /* MFFoundation.m */,
+				52E8B1B223A02B1232BF133772E9E303 /* MFLatLongFormatter.h */,
+				DF15CE3CB7CC6A353C4F8CA8756AD7AA /* MFLatLongFormatter.m */,
+				566D6E49C41ADEA4DD056641D0C416AE /* MFMathUtilities.c */,
+				5E95D2A9F2F7E75F0756EB1613A0B4E4 /* MFMathUtilities.h */,
+				B57847F9848A7437A94A45C47B5D1869 /* MFPeriod.h */,
+				5E7F6FF4497B6CF43B9D6041D31B33B2 /* MFPeriod.m */,
+				CD169AB19EFE04812C939248C4D80B2D /* MFSystem.h */,
+				E8CE222D5FD824A30B393F4536A5DF0C /* MFSystem.m */,
+				129817286A3DE10997E8CFF967978357 /* MFTypes.h */,
+				BA6E341D44C2E74E7E2653CA909B501F /* NSArray+MFExtras.h */,
+				E661631DA9E83A5946FB8C2E51E47B27 /* NSArray+MFExtras.m */,
+				0000158B4B45D0BB4A6387C6AE8F346F /* NSData+MFExtras.h */,
+				BC0B2A09B63BD635C8DBD2C8F5DD5A57 /* NSData+MFExtras.m */,
+				643169822EAC6A20B69C61B7F7D794DE /* NSDate+MFExtras.h */,
+				C552ED92B26D4F8567123E7633394549 /* NSDate+MFExtras.m */,
+				3BA0A92CA30B41FEEA36EB7F7E8292BD /* NSDictionary+MFExtras.h */,
+				51C39531E2D64287E019E5EB50CD71AB /* NSDictionary+MFExtras.m */,
+				960BE51FACDB4F18A8E08AF21D4810A5 /* NSFileManager+MFExtras.h */,
+				7F359220D229717E887279DCB7F22C03 /* NSFileManager+MFExtras.m */,
+				12184C94132D900027C0E38F4AA80C11 /* NSString+MFExtras.h */,
+				CD0B32E897588641EA7216B8C1119927 /* NSString+MFExtras.m */,
+				8DB27CB5E1AC0279BAFAD275342B4041 /* Support Files */,
+			);
+			path = MFFoundation;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				99897D38EBF62738C4E88EE7468FE3EF /* Pods */,
+				FC5B85DAF7676B6B841CD6EBF4B8E784 /* Products */,
+				35A0D88C2797C0358B0D83BCF23831C3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB27CB5E1AC0279BAFAD275342B4041 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D52E6036E39A2A08419522B43E19B964 /* MFFoundation.xcconfig */,
+				F647698D52B00DEA7A668A2B24FE3440 /* MFFoundation-dummy.m */,
+				CE1FFAECE43BA2E7D9F22ED8FB808EA8 /* MFFoundation-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MFFoundation";
+			sourceTree = "<group>";
+		};
+		99897D38EBF62738C4E88EE7468FE3EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51AF19775AEF58C627872CECA886E477 /* MFFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F38CD68207CF0C9E4700856A3D3F9FB8 /* Pods-MFCocoaExtras */ = {
+			isa = PBXGroup;
+			children = (
+				F6FB5ABE24E4BAE5FC5A5C6F07CADC37 /* Pods-MFCocoaExtras-acknowledgements.markdown */,
+				DD63C9F3455DCF9E9CA6DEE65623F08C /* Pods-MFCocoaExtras-acknowledgements.plist */,
+				14A4B83A7C63869355183383F72B4D90 /* Pods-MFCocoaExtras-dummy.m */,
+				58379BDA3262A306AFB55EDF5EB5376E /* Pods-MFCocoaExtras-frameworks.sh */,
+				FD6D1EFD6D635B7F76E4F9C8223EEDD7 /* Pods-MFCocoaExtras-resources.sh */,
+				E9D855CBCF95577C578933A7F3BB446A /* Pods-MFCocoaExtras.debug.xcconfig */,
+				F946467076C53D71C2A2496670ED1BEE /* Pods-MFCocoaExtras.release.xcconfig */,
+			);
+			name = "Pods-MFCocoaExtras";
+			path = "Target Support Files/Pods-MFCocoaExtras";
+			sourceTree = "<group>";
+		};
+		FC5B85DAF7676B6B841CD6EBF4B8E784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35B4C34457596275FEC2EC0090E28855 /* libMFFoundation.a */,
+				C76630FEE23FFAB6215514C2E9C2409B /* libPods-MFCocoaExtras.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EFBE217BFECB63A93B535548D3F48ECB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C57A16116147592E18EC88152B5BC9 /* MFChronoTimeFormatter.h in Headers */,
+				5FA83444357A7F54685E469CBA66F30B /* MFDateRange.h in Headers */,
+				F5E960DA5FF6D4A87395EA0854D6FA68 /* MFDateUtils.h in Headers */,
+				DDF627A4387985BC057D26F8977C74FB /* MFExtras.h in Headers */,
+				ABD5C323BB7AA9CD85C767DFD43C7B2D /* MFFastTrigo.h in Headers */,
+				361D6F4700945E2742F807E80C0F8C1E /* MFFormatters.h in Headers */,
+				588EEE229DED9350550BA6AE57B2A731 /* MFFoundation.h in Headers */,
+				AE6F9B0EF43A1B19A2AF1DDD27D51425 /* MFLatLongFormatter.h in Headers */,
+				99A59F063A077BEF718CBC5BA072B599 /* MFMathUtilities.h in Headers */,
+				456566032E21BFDCE98732EB173B3451 /* MFPeriod.h in Headers */,
+				676382921E0D829ECB53467F97D9309D /* MFSystem.h in Headers */,
+				18699A1E1EB0C7C957BF0B596F3BB96B /* MFTypes.h in Headers */,
+				5F8BCC379B0DB0E0379D443577E12FBF /* NSArray+MFExtras.h in Headers */,
+				09C8C74608C6D7F4F3D4258B2F952858 /* NSData+MFExtras.h in Headers */,
+				3FFD5CDE05E16925F064C7F8387061DB /* NSDate+MFExtras.h in Headers */,
+				1EF41862B5F6E69FFE15DA4BB76654C2 /* NSDictionary+MFExtras.h in Headers */,
+				6B7FD27375EE6DA42EAF18BCFB66A0E2 /* NSFileManager+MFExtras.h in Headers */,
+				313A3982AEFABEC3D14B5B4DF9C93CEB /* NSString+MFExtras.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		88D8008CB3F01DD2986A4E2874DCEFB6 /* MFFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DFE5E651D4E721B5AADE2F0974013F8 /* Build configuration list for PBXNativeTarget "MFFoundation" */;
+			buildPhases = (
+				AAFA0A4BDCD6C2FEBEB2E0A154F28CD4 /* Sources */,
+				F2EF35ADAF769C4EED58267587350BD1 /* Frameworks */,
+				EFBE217BFECB63A93B535548D3F48ECB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFFoundation;
+			productName = MFFoundation;
+			productReference = 35B4C34457596275FEC2EC0090E28855 /* libMFFoundation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A02913A0F64BD107CF1ECDC3406CE8B0 /* Pods-MFCocoaExtras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A248AC814C34CB196059B6253B4C828C /* Build configuration list for PBXNativeTarget "Pods-MFCocoaExtras" */;
+			buildPhases = (
+				AB83E14F9938FA4D6A9ABC1085279C44 /* Sources */,
+				6C3E03856F742C2FE20991C6888BB06F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE683FA797EAD07B763C080C460F5E71 /* PBXTargetDependency */,
+			);
+			name = "Pods-MFCocoaExtras";
+			productName = "Pods-MFCocoaExtras";
+			productReference = C76630FEE23FFAB6215514C2E9C2409B /* libPods-MFCocoaExtras.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FC5B85DAF7676B6B841CD6EBF4B8E784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88D8008CB3F01DD2986A4E2874DCEFB6 /* MFFoundation */,
+				A02913A0F64BD107CF1ECDC3406CE8B0 /* Pods-MFCocoaExtras */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFA0A4BDCD6C2FEBEB2E0A154F28CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E5210F0C25485B5BF980F4226C1FCD /* MFChronoTimeFormatter.m in Sources */,
+				644BD2BD4F161357779BC74DB3DCEB15 /* MFDateRange.m in Sources */,
+				5E9F9F9EBFC9E6707570F1653477CA52 /* MFDateUtils.m in Sources */,
+				90CAF01751CC7B6749458756A9F419FE /* MFFastTrigo.c in Sources */,
+				274E8A5C3C8A3DA7484B2A2083B4B34F /* MFFormatters.m in Sources */,
+				8134D113AB58CF3D5670A15B39CA0F53 /* MFFoundation-dummy.m in Sources */,
+				92DA787F250BF3E04FC91B4D6B44E636 /* MFFoundation.m in Sources */,
+				0DB3632DD044237C7EF18232C2A482E3 /* MFLatLongFormatter.m in Sources */,
+				D4FA472399D13E7756F43B5B85135712 /* MFMathUtilities.c in Sources */,
+				EDA2B8200C2A54C65C89D4BCC90F29C1 /* MFPeriod.m in Sources */,
+				7F0F1C529F448BD8C0F478927E40E18A /* MFSystem.m in Sources */,
+				1663BAA5384794674E664E2056E71D89 /* NSArray+MFExtras.m in Sources */,
+				A788D33C91829365B79E5F8B4D42ED45 /* NSData+MFExtras.m in Sources */,
+				EB9DC103A4013C5CA3162ED5DEA75DB0 /* NSDate+MFExtras.m in Sources */,
+				164D96F9FF1E61B4CFEFC894999FBCD6 /* NSDictionary+MFExtras.m in Sources */,
+				EC5CAFF2A83FED55D08A82D3C69DAD79 /* NSFileManager+MFExtras.m in Sources */,
+				AD540EE4FC1FBE7933A7667965FFD26F /* NSString+MFExtras.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB83E14F9938FA4D6A9ABC1085279C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D70A44B7189E3C0B9781884735F3BE /* Pods-MFCocoaExtras-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE683FA797EAD07B763C080C460F5E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MFFoundation;
+			target = 88D8008CB3F01DD2986A4E2874DCEFB6 /* MFFoundation */;
+			targetProxy = 86EF9063E15F15070012A32301E58598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45286ABB2808D76CCB684B199834E662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F946467076C53D71C2A2496670ED1BEE /* Pods-MFCocoaExtras.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		645892D7AC74BC4A622CF19CD016594A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D855CBCF95577C578933A7F3BB446A /* Pods-MFCocoaExtras.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7B477DE59312D188966B35C4C7D74527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52E6036E39A2A08419522B43E19B964 /* MFFoundation.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MFFoundation/MFFoundation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9A6A968D995961C639E9DE0A5AD8BF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52E6036E39A2A08419522B43E19B964 /* MFFoundation.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MFFoundation/MFFoundation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DFE5E651D4E721B5AADE2F0974013F8 /* Build configuration list for PBXNativeTarget "MFFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B477DE59312D188966B35C4C7D74527 /* Debug */,
+				9A6A968D995961C639E9DE0A5AD8BF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A248AC814C34CB196059B6253B4C828C /* Build configuration list for PBXNativeTarget "Pods-MFCocoaExtras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645892D7AC74BC4A622CF19CD016594A /* Debug */,
+				45286ABB2808D76CCB684B199834E662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

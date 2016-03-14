@@ -1,0 +1,10 @@
+PODS:
+  - MFFoundation (1.0.0)
+
+DEPENDENCIES:
+  - MFFoundation
+
+SPEC CHECKSUMS:
+  MFFoundation: 77fa1a04eecc691be2e0841a3e71320d888346a2
+
+COCOAPODS: 0.39.0
