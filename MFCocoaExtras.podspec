@@ -28,4 +28,6 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
   s.source_files = 'MFCocoaExtras/**/*'
+
+    s.frameworks = 'CoreGraphics', 'UIKit', 'MFFoundation'
 end
