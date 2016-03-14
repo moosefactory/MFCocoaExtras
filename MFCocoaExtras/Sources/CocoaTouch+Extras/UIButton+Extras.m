@@ -39,7 +39,7 @@
     return [self titleForState:self.state];
 }
 
--(UIImage*)title
+-(UIImage*)image
 {
     return [self imageForState:self.state];
 }

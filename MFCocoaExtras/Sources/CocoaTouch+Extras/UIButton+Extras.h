@@ -33,6 +33,7 @@
 @interface UIButton ( UIButton_Extras ) 
 
 -(NSString*)title;
+-(NSString*)image;
 
 -(void)setTitle:(NSString*)inTitle;
 -(void)setImage:(UIImage*)image;
