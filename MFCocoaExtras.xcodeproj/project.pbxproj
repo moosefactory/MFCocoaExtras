@@ -69,6 +69,11 @@
 		BC9B54C31C9751980014A037 /* MFSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSecurity.h; sourceTree = "<group>"; };
 		BC9B54C41C9751980014A037 /* MFSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSecurity.m; sourceTree = "<group>"; };
 		BC9B54D61C9752DC0014A037 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BC9B54D81C9757650014A037 /* appledoc.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = appledoc.sh; sourceTree = "<group>"; };
+		BC9B54D91C9757650014A037 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BC9B54DA1C9757650014A037 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BC9B54DB1C9757650014A037 /* CONTRIBUTE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTE.md; sourceTree = "<group>"; };
+		BC9B54E01C975D020014A037 /* MFCocoaExtras.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MFCocoaExtras.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +109,11 @@
 			isa = PBXGroup;
 			children = (
 				BC9B54D61C9752DC0014A037 /* Podfile */,
+				BC9B54E01C975D020014A037 /* MFCocoaExtras.podspec */,
+				BC9B54D81C9757650014A037 /* appledoc.sh */,
+				BC9B54D91C9757650014A037 /* README.md */,
+				BC9B54DA1C9757650014A037 /* LICENSE */,
+				BC9B54DB1C9757650014A037 /* CONTRIBUTE.md */,
 				BC9B54981C97505A0014A037 /* MFCocoaExtras */,
 				BC9B54A41C97505B0014A037 /* MFCocoaExtrasTests */,
 				BC9B54971C97505A0014A037 /* Products */,
@@ -218,6 +228,22 @@
 		};
 /* End PBXHeadersBuildPhase section */
 
+/* Begin PBXLegacyTarget section */
+		BC9B54DC1C975C3D0014A037 /* MFCocoaExtrasDocs */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = BC9B54DD1C975C3D0014A037 /* Build configuration list for PBXLegacyTarget "MFCocoaExtrasDocs" */;
+			buildPhases = (
+			);
+			buildToolPath = ./appledoc.sh;
+			dependencies = (
+			);
+			name = MFCocoaExtrasDocs;
+			passBuildSettingsInEnvironment = 1;
+			productName = MFCocoaExtrasDocs;
+		};
+/* End PBXLegacyTarget section */
+
 /* Begin PBXNativeTarget section */
 		BC9B54951C97505A0014A037 /* MFCocoaExtras */ = {
 			isa = PBXNativeTarget;
@@ -272,6 +298,9 @@
 					BC9B549F1C97505B0014A037 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					BC9B54DC1C975C3D0014A037 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 				};
 			};
 			buildConfigurationList = BC9B54901C97505A0014A037 /* Build configuration list for PBXProject "MFCocoaExtras" */;
@@ -288,6 +317,7 @@
 			targets = (
 				BC9B54951C97505A0014A037 /* MFCocoaExtras */,
 				BC9B549F1C97505B0014A037 /* MFCocoaExtrasTests */,
+				BC9B54DC1C975C3D0014A037 /* MFCocoaExtrasDocs */,
 			);
 		};
 /* End PBXProject section */
@@ -520,6 +550,29 @@
 			};
 			name = Release;
 		};
+		BC9B54DE1C975C3D0014A037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC9B54DF1C975C3D0014A037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -549,6 +602,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		BC9B54DD1C975C3D0014A037 /* Build configuration list for PBXLegacyTarget "MFCocoaExtrasDocs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9B54DE1C975C3D0014A037 /* Debug */,
+				BC9B54DF1C975C3D0014A037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

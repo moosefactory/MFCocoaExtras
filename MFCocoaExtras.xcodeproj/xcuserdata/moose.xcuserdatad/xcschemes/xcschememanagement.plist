@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>MFCocoaExtrasDocs.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>BC9B549F1C97505B0014A037</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC9B54DC1C975C3D0014A037</key>
 		<dict>
 			<key>primary</key>
 			<true/>
