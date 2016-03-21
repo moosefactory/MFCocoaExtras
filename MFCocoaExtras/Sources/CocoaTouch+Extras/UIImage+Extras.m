@@ -28,11 +28,8 @@
  */
 
 #import "UIImage+Extras.h"
-#if _INCLUDES_MOOF_FRAMEWORKS_
-#import <MoofFramework/CGExtras.h>
-#else
 #import "CGExtras.h"
-#endif
+
 @implementation UIImage (Extras)
 
 static CGFloat degreesToRadians(CGFloat degrees) { return degrees * M_PI / 180.0f; }
@@ -56,12 +53,20 @@ static CGFloat degreesToRadians(CGFloat degrees) { return degrees * M_PI / 180.0
     CGFloat w = self.size.width*scale;
     CGFloat h = self.size.height*scale;
     
-    switch (self.imageOrientation) {
+    /*
+     
+     NEED SOME TESTS HERE
+     
+     switch (self.imageOrientation) {
         case UIImageOrientationRight:
+     */
             h = self.size.width*scale;
             w = self.size.height*scale;
+    /*
             break;
     }
+     */
+    
     // calculate the size of the rotated view's containing box for our drawing space
     UIView *rotatedViewBox = [[UIView alloc] initWithFrame:CGRectMake(0,0,w,h)];
     CGAffineTransform t = CGAffineTransformMakeRotation(radians);
