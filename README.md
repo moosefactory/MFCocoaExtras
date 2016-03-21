@@ -1,4 +1,4 @@
-# MFFoundation
+# MFCocoaExtras
 
 ![MacDown logo](https://www.moosefactory.eu/resources/MooseFactoryRoundLogo.png)
 
@@ -76,7 +76,6 @@ Work is in progress. This disclaimer should disapear quite soon ;)
 * CGExtras
     *MFNSUITypes
     *NSUIColor-Extras
-    *MFCombinedColor
 
 
 ###Security
