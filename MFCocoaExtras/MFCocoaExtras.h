@@ -39,18 +39,19 @@ FOUNDATION_EXPORT const unsigned char MFCocoaExtrasVersionString[];
 
 // Cocoa Touch Extras
 
-#import <MFCocoaExtras/UIBarButtonItem+Extras.h>
-#import <MFCocoaExtras/UIButton+Extras.h>
-#import <MFCocoaExtras/UIImage+Extras.h>
-#import <MFCocoaExtras/UIView+Extras.h>
+#if TARGET_OS_IPHONE
+#import "UIBarButtonItem+Extras.h"
+#import "UIButton+Extras.h"
+#import "UIImage+Extras.h"
+#import "UIView+Extras.h"
+#endif
 
 // Graphics
 
-#import <MFCocoaExtras/CGExtras.h>
-#import <MFCocoaExtras/NSUIColor+Extras.h>
-#import <MFCocoaExtras/MFCombinedColor.h>
-#import <MFCocoaExtras/MFNSUITypes.h>
+#import "CGExtras.h"
+#import "NSUIColor-Extras.h"
+ #import "MFNSUITypes.h"
 
 // Security
 
-#import <MFCocoaExtras/MFSecurity.h>
+#import "MFSecurity.h"

@@ -27,7 +27,10 @@ Pod::Spec.new do |s|
 # s.osx.deployment_target = '10.8'
     s.requires_arc = true
 
-  s.source_files = 'MFCocoaExtras/**/*'
+    s.source_files = 'MFCocoaExtras/**/*'
 
-    s.frameworks = 'CoreGraphics', 'UIKit', 'MFFoundation'
+    s.framework    = 'SystemConfiguration'
+    s.requires_arc = true
+
+#    s.dependency 'MFFoundation'
 end

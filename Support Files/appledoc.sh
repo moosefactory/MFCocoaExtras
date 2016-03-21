@@ -9,23 +9,27 @@
 #appledoc Xcode script
 # Start constants
 company="MooseFactory Software";
+companyEscaped="MooseFactorySoftware";
 companyID="com.moosefactory";
+docFolder="Frameworks/Doc";
 companyURL="http://www.moosefactory.eu";
+product="MFCocoaExtras"
 target="iphoneos";
 #target="macosx";
 
-outputPath="~/help";
+outputPath="~/help/${company}/${product}";
 # End constants
 /usr/local/bin/appledoc \
 --project-name "${PROJECT_NAME}" \
 --project-company "${company}" \
 --company-id "${companyID}" \
---docset-atom-filename "${company}.atom" \
---docset-feed-url "${companyURL}/${company}/%DOCSETATOMFILENAME" \
---docset-package-url "${companyURL}/${company}/%DOCSETPACKAGEFILENAME" \
---docset-fallback-url "${companyURL}/${company}" \
+--docset-atom-filename "${product}.atom" \
+--docset-feed-url "${companyURL}/${docFolder}/%DOCSETATOMFILENAME" \
+--docset-package-url "${companyURL}/${docFolder}/%DOCSETPACKAGEFILENAME" \
+--docset-fallback-url "${companyURL}/${docFolder}/" \
 --output "${outputPath}" \
 --publish-docset \
+--index-desc .readme-appledoc.md \
 --docset-platform-family "${target}" \
 --logformat xcode \
 --keep-intermediate-files \
@@ -46,6 +50,8 @@ outputPath="~/help";
 --print-information-block-titles \
 --use-code-order \
 --verbose 4 \
+--ignore "Pods" \
+--ignore "*/MFFoundation/*" \
 --ignore "*.m" \
 --ignore "*.pch" \
 --ignore "*.config" \

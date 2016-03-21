@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BC9B54951C97505A0014A037"
-               BuildableName = "MFCocoaExtras.framework"
-               BlueprintName = "MFCocoaExtras"
+               BuildableName = "MFCocoaExtras_iOS.framework"
+               BlueprintName = "MFCocoaExtras_iOS"
                ReferencedContainer = "container:MFCocoaExtras.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC9B54951C97505A0014A037"
-            BuildableName = "MFCocoaExtras.framework"
-            BlueprintName = "MFCocoaExtras"
+            BuildableName = "MFCocoaExtras_iOS.framework"
+            BlueprintName = "MFCocoaExtras_iOS"
             ReferencedContainer = "container:MFCocoaExtras.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,8 +65,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC9B54951C97505A0014A037"
-            BuildableName = "MFCocoaExtras.framework"
-            BlueprintName = "MFCocoaExtras"
+            BuildableName = "MFCocoaExtras_iOS.framework"
+            BlueprintName = "MFCocoaExtras_iOS"
             ReferencedContainer = "container:MFCocoaExtras.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,8 +83,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC9B54951C97505A0014A037"
-            BuildableName = "MFCocoaExtras.framework"
-            BlueprintName = "MFCocoaExtras"
+            BuildableName = "MFCocoaExtras_iOS.framework"
+            BlueprintName = "MFCocoaExtras_iOS"
             ReferencedContainer = "container:MFCocoaExtras.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
