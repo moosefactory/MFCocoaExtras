@@ -77,8 +77,8 @@
 		BCBE0A091CA02E8500C91B82 /* appledoc.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = appledoc.sh; sourceTree = "<group>"; };
 		BCBE0A0A1CA02E8500C91B82 /* MFCocoaExtras-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MFCocoaExtras-iOS-Info.plist"; sourceTree = "<group>"; };
 		BCBE0A0B1CA02E8500C91B82 /* MFCocoaExtras-MacOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MFCocoaExtras-MacOS-Info.plist"; sourceTree = "<group>"; };
-		BCBE0A0C1CA02E8500C91B82 /* MFCocoaExtras.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MFCocoaExtras.podspec; sourceTree = "<group>"; };
 		BCBE0A0E1CA02E8500C91B82 /* readme-appledoc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "readme-appledoc.md"; sourceTree = "<group>"; };
+		BCBE0A101CA034CA00C91B82 /* MFCocoaExtras.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MFCocoaExtras.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,10 +198,10 @@
 		BCBE0A081CA02E8500C91B82 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				BCBE0A101CA034CA00C91B82 /* MFCocoaExtras.podspec */,
 				BCBE0A091CA02E8500C91B82 /* appledoc.sh */,
 				BCBE0A0A1CA02E8500C91B82 /* MFCocoaExtras-iOS-Info.plist */,
 				BCBE0A0B1CA02E8500C91B82 /* MFCocoaExtras-MacOS-Info.plist */,
-				BCBE0A0C1CA02E8500C91B82 /* MFCocoaExtras.podspec */,
 				BCBE0A0E1CA02E8500C91B82 /* readme-appledoc.md */,
 			);
 			path = "Support Files";
