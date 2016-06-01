@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MFCocoaExtras"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "MFCocoaExtras is a cross-platofrm (iOS/MacOS) Utility Library."
   s.description      = <<-DESC
                     MFCocoaExtras is a cross-platofrm (iOS/MacOS) Utility Library build on Cocoa or CocoaTouch (UIKit) frameworks.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/moosefactory_eu'
 
     s.ios.deployment_target = '6.0'
-# s.osx.deployment_target = '10.8'
+    s.osx.deployment_target = '10.8'
     s.requires_arc = true
 
     s.source_files = 'MFCocoaExtras/**/*'

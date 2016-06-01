@@ -35,23 +35,19 @@ FOUNDATION_EXPORT double MFCocoaExtrasVersionNumber;
 //! Project version string for MFCocoaExtras.
 FOUNDATION_EXPORT const unsigned char MFCocoaExtrasVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <MFCocoaExtras/PublicHeader.h>
-
 // Cocoa Touch Extras
 
-#if TARGET_OS_IPHONE
-#import "UIBarButtonItem+Extras.h"
-#import "UIButton+Extras.h"
-#import "UIImage+Extras.h"
-#import "UIView+Extras.h"
-#endif
+#import <MFCocoaExtras/UIBarButtonItem+Extras.h>
+#import <MFCocoaExtras/UIButton+Extras.h>
+#import <MFCocoaExtras/UIImage+Extras.h>
+#import <MFCocoaExtras/UIView+Extras.h>
 
 // Graphics
 
-#import "CGExtras.h"
-#import "NSUIColor-Extras.h"
- #import "MFNSUITypes.h"
+#import <MFCocoaExtras/CGExtras.h>
+#import <MFCocoaExtras/NSUIColor-Extras.h>
+#import <MFCocoaExtras/MFNSUITypes.h>
 
 // Security
 
-#import "MFSecurity.h"
+#import <MFCocoaExtras/MFSecurity.h>
