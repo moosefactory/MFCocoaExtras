@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/moosefactory/MFCocoaExtras.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/moosefactory_eu'
 
-    s.ios.deployment_target = '6.0'
-    s.osx.deployment_target = '10.8'
+    s.ios.deployment_target = '7.0'
+    s.osx.deployment_target = '10.7'
     s.requires_arc = true
 
     s.source_files = 'MFCocoaExtras/**/*'

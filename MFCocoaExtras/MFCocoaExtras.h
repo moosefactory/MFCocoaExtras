@@ -37,10 +37,12 @@ FOUNDATION_EXPORT const unsigned char MFCocoaExtrasVersionString[];
 
 // Cocoa Touch Extras
 
+#if TARGET_OS_IPHONE
 #import <MFCocoaExtras/UIBarButtonItem+Extras.h>
 #import <MFCocoaExtras/UIButton+Extras.h>
 #import <MFCocoaExtras/UIImage+Extras.h>
 #import <MFCocoaExtras/UIView+Extras.h>
+#endif
 
 // Graphics
 
