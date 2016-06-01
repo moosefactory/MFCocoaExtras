@@ -9,7 +9,7 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>MFCocoaExtras.xcscheme</key>
+		<key>MFCocoaExtras-iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
