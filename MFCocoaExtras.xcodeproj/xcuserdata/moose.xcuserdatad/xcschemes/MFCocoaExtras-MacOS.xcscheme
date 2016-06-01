@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC04EEF81C9EC66A007A65EF"
+               BlueprintIdentifier = "BC3EB07E1CFF8C6600C02BBD"
                BuildableName = "MFCocoaExtras.framework"
                BlueprintName = "MFCocoaExtras_MacOS"
                ReferencedContainer = "container:MFCocoaExtras.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC04EEF81C9EC66A007A65EF"
+            BlueprintIdentifier = "BC3EB07E1CFF8C6600C02BBD"
             BuildableName = "MFCocoaExtras.framework"
             BlueprintName = "MFCocoaExtras_MacOS"
             ReferencedContainer = "container:MFCocoaExtras.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC04EEF81C9EC66A007A65EF"
+            BlueprintIdentifier = "BC3EB07E1CFF8C6600C02BBD"
             BuildableName = "MFCocoaExtras.framework"
             BlueprintName = "MFCocoaExtras_MacOS"
             ReferencedContainer = "container:MFCocoaExtras.xcodeproj">

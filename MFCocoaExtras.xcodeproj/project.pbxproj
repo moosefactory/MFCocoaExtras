@@ -7,15 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC04EEFB1C9EC66A007A65EF /* NSUIColor-Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54BE1C9751980014A037 /* NSUIColor-Extras.m */; };
-		BC04EEFC1C9EC66A007A65EF /* CGExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54BC1C9751980014A037 /* CGExtras.m */; };
-		BC04EEFD1C9EC66A007A65EF /* MFSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54C41C9751980014A037 /* MFSecurity.m */; };
-		BC04EF051C9EC66A007A65EF /* CGExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54BB1C9751980014A037 /* CGExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC04EF081C9EC66A007A65EF /* NSUIColor-Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54BD1C9751980014A037 /* NSUIColor-Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC04EF0A1C9EC66A007A65EF /* MFNSUITypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54C11C9751980014A037 /* MFNSUITypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC04EF0C1C9EC66A007A65EF /* MFSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54C31C9751980014A037 /* MFSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC349CA81CCB9E9F00BFF28D /* MFCocoaExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC349CA61CCB9E6400BFF28D /* MFCocoaExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC3EB0791CFF873800C02BBD /* MFCocoaExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC349CA61CCB9E6400BFF28D /* MFCocoaExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC3EB0821CFF8C6600C02BBD /* MFCocoaExtras_MacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = BC3EB0811CFF8C6600C02BBD /* MFCocoaExtras_MacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC3EB0891CFF8C6700C02BBD /* MFCocoaExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3EB07F1CFF8C6600C02BBD /* MFCocoaExtras.framework */; };
+		BC3EB08E1CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3EB08D1CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.m */; };
 		BC9B54A11C97505B0014A037 /* MFCocoaExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9B54961C97505A0014A037 /* MFCocoaExtras.framework */; };
 		BC9B54A61C97505B0014A037 /* MFCocoaExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54A51C97505B0014A037 /* MFCocoaExtrasTests.m */; };
 		BC9B54C51C9751980014A037 /* UIBarButtonItem+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54B21C9751980014A037 /* UIBarButtonItem+Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +31,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BC3EB08A1CFF8C6700C02BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC9B548D1C97505A0014A037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3EB07E1CFF8C6600C02BBD;
+			remoteInfo = MFCocoaExtras_MacOS;
+		};
 		BC9B54A21C97505B0014A037 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC9B548D1C97505A0014A037 /* Project object */;
@@ -46,8 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BC04EF131C9EC66A007A65EF /* MFCocoaExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MFCocoaExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC349CA61CCB9E6400BFF28D /* MFCocoaExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFCocoaExtras.h; sourceTree = "<group>"; };
+		BC3EB07F1CFF8C6600C02BBD /* MFCocoaExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MFCocoaExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3EB0811CFF8C6600C02BBD /* MFCocoaExtras_MacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFCocoaExtras_MacOS.h; sourceTree = "<group>"; };
+		BC3EB0831CFF8C6600C02BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3EB0881CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFCocoaExtras_MacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3EB08D1CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFCocoaExtras_MacOSTests.m; sourceTree = "<group>"; };
+		BC3EB08F1CFF8C6700C02BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9B54961C97505A0014A037 /* MFCocoaExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MFCocoaExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9B54A01C97505B0014A037 /* MFCocoaExtrasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFCocoaExtrasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9B54A51C97505B0014A037 /* MFCocoaExtrasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFCocoaExtrasTests.m; sourceTree = "<group>"; };
@@ -78,10 +85,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BC04EF021C9EC66A007A65EF /* Frameworks */ = {
+		BC3EB07B1CFF8C6600C02BBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3EB0851CFF8C6700C02BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3EB0891CFF8C6700C02BBD /* MFCocoaExtras.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +118,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC3EB0801CFF8C6600C02BBD /* MFCocoaExtras_MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				BC3EB0811CFF8C6600C02BBD /* MFCocoaExtras_MacOS.h */,
+				BC3EB0831CFF8C6600C02BBD /* Info.plist */,
+			);
+			path = MFCocoaExtras_MacOS;
+			sourceTree = "<group>";
+		};
+		BC3EB08C1CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC3EB08D1CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.m */,
+				BC3EB08F1CFF8C6700C02BBD /* Info.plist */,
+			);
+			path = MFCocoaExtras_MacOSTests;
+			sourceTree = "<group>";
+		};
 		BC9B548C1C97505A0014A037 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +145,8 @@
 				BCBE0A081CA02E8500C91B82 /* Support Files */,
 				BC9B54981C97505A0014A037 /* MFCocoaExtras */,
 				BC9B54A41C97505B0014A037 /* MFCocoaExtrasTests */,
+				BC3EB0801CFF8C6600C02BBD /* MFCocoaExtras_MacOS */,
+				BC3EB08C1CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests */,
 				BC9B54971C97505A0014A037 /* Products */,
 				F2FBB107CF445525FA3C8E2C /* Frameworks */,
 			);
@@ -122,7 +157,8 @@
 			children = (
 				BC9B54961C97505A0014A037 /* MFCocoaExtras.framework */,
 				BC9B54A01C97505B0014A037 /* MFCocoaExtrasTests.xctest */,
-				BC04EF131C9EC66A007A65EF /* MFCocoaExtras.framework */,
+				BC3EB07F1CFF8C6600C02BBD /* MFCocoaExtras.framework */,
+				BC3EB0881CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,15 +249,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BC04EF031C9EC66A007A65EF /* Headers */ = {
+		BC3EB07C1CFF8C6600C02BBD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC3EB0791CFF873800C02BBD /* MFCocoaExtras.h in Headers */,
-				BC04EF051C9EC66A007A65EF /* CGExtras.h in Headers */,
-				BC04EF081C9EC66A007A65EF /* NSUIColor-Extras.h in Headers */,
-				BC04EF0A1C9EC66A007A65EF /* MFNSUITypes.h in Headers */,
-				BC04EF0C1C9EC66A007A65EF /* MFSecurity.h in Headers */,
+				BC3EB0821CFF8C6600C02BBD /* MFCocoaExtras_MacOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +283,7 @@
 			buildPhases = (
 			);
 			buildToolPath = ./appledoc.sh;
+			buildWorkingDirectory = "./Support Files/";
 			dependencies = (
 			);
 			name = MFCocoaExtrasDocs;
@@ -260,23 +293,41 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		BC04EEF81C9EC66A007A65EF /* MFCocoaExtras_MacOS */ = {
+		BC3EB07E1CFF8C6600C02BBD /* MFCocoaExtras_MacOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC04EF101C9EC66A007A65EF /* Build configuration list for PBXNativeTarget "MFCocoaExtras_MacOS" */;
+			buildConfigurationList = BC3EB0901CFF8C6700C02BBD /* Build configuration list for PBXNativeTarget "MFCocoaExtras_MacOS" */;
 			buildPhases = (
-				BC04EEFA1C9EC66A007A65EF /* Sources */,
-				BC04EF021C9EC66A007A65EF /* Frameworks */,
-				BC04EF031C9EC66A007A65EF /* Headers */,
-				BC04EF0D1C9EC66A007A65EF /* Resources */,
+				BC3EB07A1CFF8C6600C02BBD /* Sources */,
+				BC3EB07B1CFF8C6600C02BBD /* Frameworks */,
+				BC3EB07C1CFF8C6600C02BBD /* Headers */,
+				BC3EB07D1CFF8C6600C02BBD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MFCocoaExtras_MacOS;
-			productName = MFCocoaExtras;
-			productReference = BC04EF131C9EC66A007A65EF /* MFCocoaExtras.framework */;
+			productName = MFCocoaExtras_MacOS;
+			productReference = BC3EB07F1CFF8C6600C02BBD /* MFCocoaExtras.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		BC3EB0871CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3EB0931CFF8C6700C02BBD /* Build configuration list for PBXNativeTarget "MFCocoaExtras_MacOSTests" */;
+			buildPhases = (
+				BC3EB0841CFF8C6700C02BBD /* Sources */,
+				BC3EB0851CFF8C6700C02BBD /* Frameworks */,
+				BC3EB0861CFF8C6700C02BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC3EB08B1CFF8C6700C02BBD /* PBXTargetDependency */,
+			);
+			name = MFCocoaExtras_MacOSTests;
+			productName = MFCocoaExtras_MacOSTests;
+			productReference = BC3EB0881CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		BC9B54951C97505A0014A037 /* MFCocoaExtras_iOS */ = {
 			isa = PBXNativeTarget;
@@ -323,6 +374,12 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = MooseFactory;
 				TargetAttributes = {
+					BC3EB07E1CFF8C6600C02BBD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BC3EB0871CFF8C6700C02BBD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					BC9B54951C97505A0014A037 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = VMXFN634RR;
@@ -348,15 +405,23 @@
 			projectRoot = "";
 			targets = (
 				BC9B54951C97505A0014A037 /* MFCocoaExtras_iOS */,
-				BC04EEF81C9EC66A007A65EF /* MFCocoaExtras_MacOS */,
 				BC9B549F1C97505B0014A037 /* MFCocoaExtrasTests */,
 				BC9B54DC1C975C3D0014A037 /* MFCocoaExtrasDocs */,
+				BC3EB07E1CFF8C6600C02BBD /* MFCocoaExtras_MacOS */,
+				BC3EB0871CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BC04EF0D1C9EC66A007A65EF /* Resources */ = {
+		BC3EB07D1CFF8C6600C02BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3EB0861CFF8C6700C02BBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -380,13 +445,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BC04EEFA1C9EC66A007A65EF /* Sources */ = {
+		BC3EB07A1CFF8C6600C02BBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC04EEFB1C9EC66A007A65EF /* NSUIColor-Extras.m in Sources */,
-				BC04EEFC1C9EC66A007A65EF /* CGExtras.m in Sources */,
-				BC04EEFD1C9EC66A007A65EF /* MFSecurity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3EB0841CFF8C6700C02BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3EB08E1CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +485,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BC3EB08B1CFF8C6700C02BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3EB07E1CFF8C6600C02BBD /* MFCocoaExtras_MacOS */;
+			targetProxy = BC3EB08A1CFF8C6700C02BBD /* PBXContainerItemProxy */;
+		};
 		BC9B54A31C97505B0014A037 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BC9B54951C97505A0014A037 /* MFCocoaExtras_iOS */;
@@ -423,55 +498,79 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		BC04EF111C9EC66A007A65EF /* Debug */ = {
+		BC3EB0911CFF8C6700C02BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = $inherited;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Support Files/MFCocoaExtras-MacOS-Info.plist";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MFCocoaExtras_MacOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moosefactory.MFCocoaExtras;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.MFCocoaExtras-MacOS";
 				PRODUCT_NAME = MFCocoaExtras;
-				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
-		BC04EF121C9EC66A007A65EF /* Release */ = {
+		BC3EB0921CFF8C6700C02BBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = $inherited;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Support Files/MFCocoaExtras-MacOS-Info.plist";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MFCocoaExtras_MacOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moosefactory.MFCocoaExtras;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.MFCocoaExtras-MacOS";
 				PRODUCT_NAME = MFCocoaExtras;
-				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		BC3EB0941CFF8C6700C02BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MFCocoaExtras_MacOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.MFCocoaExtras-MacOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC3EB0951CFF8C6700C02BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MFCocoaExtras_MacOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.MFCocoaExtras-MacOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -579,6 +678,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moosefactory.MFCocoaExtras;
 				PRODUCT_NAME = MFCocoaExtras;
 				PROVISIONING_PROFILE = "";
@@ -600,6 +700,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moosefactory.MFCocoaExtras;
 				PRODUCT_NAME = MFCocoaExtras;
 				PROVISIONING_PROFILE = "";
@@ -653,14 +754,21 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC04EF101C9EC66A007A65EF /* Build configuration list for PBXNativeTarget "MFCocoaExtras_MacOS" */ = {
+		BC3EB0901CFF8C6700C02BBD /* Build configuration list for PBXNativeTarget "MFCocoaExtras_MacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC04EF111C9EC66A007A65EF /* Debug */,
-				BC04EF121C9EC66A007A65EF /* Release */,
+				BC3EB0911CFF8C6700C02BBD /* Debug */,
+				BC3EB0921CFF8C6700C02BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+		};
+		BC3EB0931CFF8C6700C02BBD /* Build configuration list for PBXNativeTarget "MFCocoaExtras_MacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3EB0941CFF8C6700C02BBD /* Debug */,
+				BC3EB0951CFF8C6700C02BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		BC9B54901C97505A0014A037 /* Build configuration list for PBXProject "MFCocoaExtras" */ = {
 			isa = XCConfigurationList;

@@ -7,7 +7,7 @@
 		<key>MFCocoaExtras-MacOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>2</integer>
 		</dict>
 		<key>MFCocoaExtras-iOS.xcscheme</key>
 		<dict>
@@ -17,12 +17,27 @@
 		<key>MFCocoaExtrasDocs.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
+		</dict>
+		<key>MFCocoaExtras_MacOSTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>BC04EEF81C9EC66A007A65EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC3EB07E1CFF8C6600C02BBD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC3EB0871CFF8C6700C02BBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

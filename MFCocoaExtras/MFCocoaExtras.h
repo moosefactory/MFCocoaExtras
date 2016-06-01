@@ -27,7 +27,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
-#import <UIKit/UIKit.h>
 
 //! Project version number for MFCocoaExtras.
 FOUNDATION_EXPORT double MFCocoaExtrasVersionNumber;
@@ -38,10 +37,18 @@ FOUNDATION_EXPORT const unsigned char MFCocoaExtrasVersionString[];
 // Cocoa Touch Extras
 
 #if TARGET_OS_IPHONE
+
+#import <UIKit/UIKit.h>
+
 #import <MFCocoaExtras/UIBarButtonItem+Extras.h>
 #import <MFCocoaExtras/UIButton+Extras.h>
 #import <MFCocoaExtras/UIImage+Extras.h>
 #import <MFCocoaExtras/UIView+Extras.h>
+
+#else
+
+#import <Cocoa/Cocoa.h>
+
 #endif
 
 // Graphics
