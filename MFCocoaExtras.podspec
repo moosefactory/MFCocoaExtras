@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/moosefactory/MFCocoaExtras"
   s.license          = 'MIT'
   s.author           = { "Tristan Leblanc" => "tristan@moosefactory.eu" }
-  s.source           = { :git => "https://gitlab.com/MooseFactorySoftware/MFCocoaExtras/.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://gitlab.com/MooseFactorySoftware/MFCocoaExtras.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/moosefactory_eu'
 
     s.ios.deployment_target = '7.0'
