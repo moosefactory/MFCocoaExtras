@@ -34,20 +34,22 @@ FOUNDATION_EXPORT double MFCocoaExtrasVersionNumber;
 //! Project version string for MFCocoaExtras.
 FOUNDATION_EXPORT const unsigned char MFCocoaExtrasVersionString[];
 
+#import "TargetConditionals.h" 
+
 // Cocoa Touch Extras
+#import <Foundation/Foundation.h>
+#if TARGET_OS_IPHONE
+#import <UIKit/UIKit.h>
+#else
+#import <AppKit/AppKit.h>
+#endif
 
 #if TARGET_OS_IPHONE
-
-#import <UIKit/UIKit.h>
 
 #import <MFCocoaExtras/UIBarButtonItem+Extras.h>
 #import <MFCocoaExtras/UIButton+Extras.h>
 #import <MFCocoaExtras/UIImage+Extras.h>
 #import <MFCocoaExtras/UIView+Extras.h>
-
-#else
-
-#import <Cocoa/Cocoa.h>
 
 #endif
 

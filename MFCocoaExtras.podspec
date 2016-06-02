@@ -27,7 +27,8 @@ Pod::Spec.new do |s|
     s.osx.deployment_target = '10.7'
     s.requires_arc = true
 
-    s.source_files = 'MFCocoaExtras/**/*'
+    s.ios.source_files = 'MFCocoaExtras/Sources/Graphics/*', 'MFCocoaExtras/Sources/Security/*', 'MFCocoaExtras/Sources/CocoaTouch+Extras/*'
+    s.osx.source_files = 'MFCocoaExtras/Sources/Graphics/*', 'MFCocoaExtras/Sources/Security/*'
 
     s.framework    = 'SystemConfiguration'
     s.requires_arc = true

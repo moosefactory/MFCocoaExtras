@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC349CA81CCB9E9F00BFF28D /* MFCocoaExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC349CA61CCB9E6400BFF28D /* MFCocoaExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC3EB0821CFF8C6600C02BBD /* MFCocoaExtras_MacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = BC3EB0811CFF8C6600C02BBD /* MFCocoaExtras_MacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC3EB0891CFF8C6700C02BBD /* MFCocoaExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3EB07F1CFF8C6600C02BBD /* MFCocoaExtras.framework */; };
 		BC3EB08E1CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3EB08D1CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.m */; };
+		BC45B4C61CFF92170070F608 /* CGExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54BB1C9751980014A037 /* CGExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC45B4C71CFF92170070F608 /* NSUIColor-Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54BD1C9751980014A037 /* NSUIColor-Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC45B4C81CFF92170070F608 /* MFNSUITypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54C11C9751980014A037 /* MFNSUITypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC45B4C91CFF921F0070F608 /* MFSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54C31C9751980014A037 /* MFSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC45B4CA1CFF92D80070F608 /* MFCocoaExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC349CA61CCB9E6400BFF28D /* MFCocoaExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC45B4CB1CFF92D90070F608 /* MFCocoaExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC349CA61CCB9E6400BFF28D /* MFCocoaExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC9B54A11C97505B0014A037 /* MFCocoaExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9B54961C97505A0014A037 /* MFCocoaExtras.framework */; };
 		BC9B54A61C97505B0014A037 /* MFCocoaExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54A51C97505B0014A037 /* MFCocoaExtrasTests.m */; };
 		BC9B54C51C9751980014A037 /* UIBarButtonItem+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54B21C9751980014A037 /* UIBarButtonItem+Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,12 +25,8 @@
 		BC9B54CA1C9751980014A037 /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54B71C9751980014A037 /* UIImage+Extras.m */; };
 		BC9B54CB1C9751980014A037 /* UIView+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54B81C9751980014A037 /* UIView+Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC9B54CC1C9751980014A037 /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54B91C9751980014A037 /* UIView+Extras.m */; };
-		BC9B54CD1C9751980014A037 /* CGExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54BB1C9751980014A037 /* CGExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC9B54CE1C9751980014A037 /* CGExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54BC1C9751980014A037 /* CGExtras.m */; };
-		BC9B54CF1C9751980014A037 /* NSUIColor-Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54BD1C9751980014A037 /* NSUIColor-Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC9B54D01C9751980014A037 /* NSUIColor-Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54BE1C9751980014A037 /* NSUIColor-Extras.m */; };
-		BC9B54D31C9751980014A037 /* MFNSUITypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54C11C9751980014A037 /* MFNSUITypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC9B54D41C9751980014A037 /* MFSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54C31C9751980014A037 /* MFSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC9B54D51C9751980014A037 /* MFSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54C41C9751980014A037 /* MFSecurity.m */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +50,6 @@
 /* Begin PBXFileReference section */
 		BC349CA61CCB9E6400BFF28D /* MFCocoaExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFCocoaExtras.h; sourceTree = "<group>"; };
 		BC3EB07F1CFF8C6600C02BBD /* MFCocoaExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MFCocoaExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC3EB0811CFF8C6600C02BBD /* MFCocoaExtras_MacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFCocoaExtras_MacOS.h; sourceTree = "<group>"; };
 		BC3EB0831CFF8C6600C02BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC3EB0881CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFCocoaExtras_MacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3EB08D1CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFCocoaExtras_MacOSTests.m; sourceTree = "<group>"; };
@@ -121,7 +120,6 @@
 		BC3EB0801CFF8C6600C02BBD /* MFCocoaExtras_MacOS */ = {
 			isa = PBXGroup;
 			children = (
-				BC3EB0811CFF8C6600C02BBD /* MFCocoaExtras_MacOS.h */,
 				BC3EB0831CFF8C6600C02BBD /* Info.plist */,
 			);
 			path = MFCocoaExtras_MacOS;
@@ -253,7 +251,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC3EB0821CFF8C6600C02BBD /* MFCocoaExtras_MacOS.h in Headers */,
+				BC45B4CB1CFF92D90070F608 /* MFCocoaExtras.h in Headers */,
+				BC45B4C71CFF92170070F608 /* NSUIColor-Extras.h in Headers */,
+				BC45B4C81CFF92170070F608 /* MFNSUITypes.h in Headers */,
+				BC45B4C61CFF92170070F608 /* CGExtras.h in Headers */,
+				BC45B4C91CFF921F0070F608 /* MFSecurity.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,15 +263,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC349CA81CCB9E9F00BFF28D /* MFCocoaExtras.h in Headers */,
+				BC45B4CA1CFF92D80070F608 /* MFCocoaExtras.h in Headers */,
 				BC9B54C51C9751980014A037 /* UIBarButtonItem+Extras.h in Headers */,
-				BC9B54CD1C9751980014A037 /* CGExtras.h in Headers */,
 				BC9B54C91C9751980014A037 /* UIImage+Extras.h in Headers */,
 				BC9B54C71C9751980014A037 /* UIButton+Extras.h in Headers */,
-				BC9B54CF1C9751980014A037 /* NSUIColor-Extras.h in Headers */,
-				BC9B54D31C9751980014A037 /* MFNSUITypes.h in Headers */,
 				BC9B54CB1C9751980014A037 /* UIView+Extras.h in Headers */,
-				BC9B54D41C9751980014A037 /* MFSecurity.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -761,6 +759,7 @@
 				BC3EB0921CFF8C6700C02BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC3EB0931CFF8C6700C02BBD /* Build configuration list for PBXNativeTarget "MFCocoaExtras_MacOSTests" */ = {
 			isa = XCConfigurationList;
@@ -769,6 +768,7 @@
 				BC3EB0951CFF8C6700C02BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC9B54901C97505A0014A037 /* Build configuration list for PBXProject "MFCocoaExtras" */ = {
 			isa = XCConfigurationList;
