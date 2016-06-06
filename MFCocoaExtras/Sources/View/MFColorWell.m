@@ -10,11 +10,9 @@
 
 @implementation MFColorWell
 
-@synthesize color;
-
 -(void)setColor:(NSUIColor *)color
 {
-    self->color = color;
+    _color = color;
     [self setNeedsDisplay];
 }
 
@@ -22,10 +20,10 @@
 {
     CGRect bnd = self.bounds;
     CGContextRef ctx = UIGraphicsGetCurrentContext();
-    if (!color) {
+    if (!_color) {
         [self drawColor:[[NSUIColor blackColor] colorWithAlphaComponent:0.0f]];
     } else {
-        [self drawColor:color];
+        [self drawColor:_color];
         CGContextFillRect(ctx, bnd);
     }
     [[NSUIColor blackColor] setStroke];
