@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MFCocoaExtras"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "MFCocoaExtras is a cross-platofrm (iOS/MacOS) Utility Library."
   s.description      = <<-DESC
                     MFCocoaExtras is a cross-platofrm (iOS/MacOS) Utility Library build on Cocoa or CocoaTouch (UIKit) frameworks.
