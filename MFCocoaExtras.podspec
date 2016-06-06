@@ -33,5 +33,6 @@ Pod::Spec.new do |s|
     s.framework    = 'SystemConfiguration'
     s.requires_arc = true
 
-#    s.dependency 'MFFoundation'
+    s.dependency 'MFFoundation', '~> 1.0.3'
+
 end
