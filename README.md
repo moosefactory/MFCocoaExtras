@@ -10,7 +10,7 @@ Tristan Leblanc - MooseFactory Software
 
 ----
 
-#<font color='#808080'>Content</font>
+# <font color='#808080'>Content</font>
 
 ----
 
@@ -173,7 +173,7 @@ Tristan Leblanc - MooseFactory Software
 
 ----
 
-#<font color='#808080'>Installation</font>
+# <font color='#808080'>Installation</font>
 
 MFCocoaExtras is available through CocoaPods. To install it, simply add the following line to your Podfile:
 
@@ -183,7 +183,7 @@ MFCocoaExtras is available through CocoaPods. To install it, simply add the foll
 ----
 
 
-#<font color='#808080'>Author</font>
+# <font color='#808080'>Author</font>
 
 Tristan Leblanc <tristan@moosefactory.eu>
 
@@ -194,13 +194,13 @@ Link for recruiters ( Online Resume ) : <http://tristan.moosefactory.eu>
 
 ----
 
-#<font color='#808080'>Contribute</font>
+# <font color='#808080'>Contribute</font>
 
 If you wish to contribute, check the CONTRIBUTE<CONTRIBUTE.md> file for more information.
 
 ***
 
-#<font color='#808080'>License</font>
+# <font color='#808080'>License</font>
 
 MFCocoa is available under the MIT license. See the LICENSE file for more info.
 
