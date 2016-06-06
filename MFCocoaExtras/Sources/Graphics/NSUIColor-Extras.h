@@ -27,9 +27,16 @@
  THE SOFTWARE.
  */
 
-#import "MFNSUITypes.h"
-
-@interface NSUIColor (Extras)
+//#import <MFCocoaExtras/MFNSUITypes.h>
+#import <MFCocoaExtras/MFNSUITypes.h>
+/*
+#if TARGET_OS_IPHONE
+@interface UIColor (MFExtras)
+#else
+@interface NSColor (MFExtras)
+#endif
+*/
+@interface NSUIColor (MFExtras)
 
 #pragma mark ---- Value Getters ----
 
@@ -56,4 +63,11 @@
 
     -(NSUIColor*)colorWithNoAlpha;
     -(NSUIColor*)colorWithAlphaComponentMultipliedBy:(CGFloat)factor;
+
+
+@property(nonatomic,readonly) CGFloat red;
+@property(nonatomic,readonly) CGFloat green;
+@property(nonatomic,readonly) CGFloat blue;
+@property(nonatomic,readonly) CGFloat alpha;
+
 @end

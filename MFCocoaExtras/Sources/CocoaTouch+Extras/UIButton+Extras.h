@@ -29,8 +29,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import <MFCocoaExtras/MFNSUITypes.h>
 
-@interface UIButton ( UIButton_Extras ) 
+@interface NSUIButton ( MFExtras )
 
 -(NSString*)title;
 -(NSString*)image;

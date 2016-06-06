@@ -27,6 +27,15 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
+// Cocoa Touch Extras
+#import <Foundation/Foundation.h>
+#import <MFFoundation/MFFoundation.h>
+
+#if TARGET_OS_IPHONE
+#import <UIKit/UIKit.h>
+#else
+#import <AppKit/AppKit.h>
+#endif
 
 //! Project version number for MFCocoaExtras.
 FOUNDATION_EXPORT double MFCocoaExtrasVersionNumber;
@@ -34,15 +43,7 @@ FOUNDATION_EXPORT double MFCocoaExtrasVersionNumber;
 //! Project version string for MFCocoaExtras.
 FOUNDATION_EXPORT const unsigned char MFCocoaExtrasVersionString[];
 
-#import "TargetConditionals.h" 
 
-// Cocoa Touch Extras
-#import <Foundation/Foundation.h>
-#if TARGET_OS_IPHONE
-#import <UIKit/UIKit.h>
-#else
-#import <AppKit/AppKit.h>
-#endif
 
 #if TARGET_OS_IPHONE
 
@@ -58,6 +59,12 @@ FOUNDATION_EXPORT const unsigned char MFCocoaExtrasVersionString[];
 #import <MFCocoaExtras/CGExtras.h>
 #import <MFCocoaExtras/NSUIColor-Extras.h>
 #import <MFCocoaExtras/MFNSUITypes.h>
+#import <MFCocoaExtras/MFCGCombinedColor.h>
+
+// Views
+
+#import <MFCocoaExtras/MFColorWell.h>
+#import <MFCocoaExtras/MFRoundCornersView.h>
 
 // Security
 

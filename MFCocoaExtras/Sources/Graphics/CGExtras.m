@@ -27,7 +27,7 @@
  THE SOFTWARE.
  */
 
-#import "CGExtras.h"
+#import <MFCocoaExtras/CGExtras.h>
 
 
 CGSize  CGSizeWithRatio(CGSize inSize,CGFloat ratio)

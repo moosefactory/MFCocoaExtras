@@ -28,7 +28,7 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "UIImage+Extras.h"
+#import <MFCocoaExtras/UIImage+Extras.h>
 
 @interface UIView (Extras)
 

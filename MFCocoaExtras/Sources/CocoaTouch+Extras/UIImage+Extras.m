@@ -27,8 +27,8 @@
  THE SOFTWARE.
  */
 
-#import "UIImage+Extras.h"
-#import "CGExtras.h"
+#import <MFCocoaExtras/UIImage+Extras.h>
+#import <MFCocoaExtras/CGExtras.h>
 
 @implementation UIImage (Extras)
 

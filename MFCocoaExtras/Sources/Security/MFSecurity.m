@@ -27,7 +27,7 @@
  THE SOFTWARE.
  */
 
-#import "MFSecurity.h"
+#import <MFCocoaExtras/MFSecurity.h>
 
 
 #if !TARGET_OS_IPHONE

@@ -1,8 +1,6 @@
-# MFCocoaExtras
+![MooseFactoryLogo](Documentation/MFFoundation_Header.png)
 
-![MacDown logo](https://www.moosefactory.eu/resources/MooseFactoryRoundLogo.png)
-
-**Utility Framework for iOS or MacOS**
+**Utility Framework for iOS and MacOS**
 
 
 This is a compilation of some of commonly used codes over the years.  
@@ -13,85 +11,182 @@ Cheers :)
 Tristan Leblanc - MooseFactory Software  
 <https://www.moosefactory.eu>
 
-***
+----
 
-## USAGE
+#<font color='#808080'>Content</font>
 
-To use MFCocoaExtras in your project, add #import <MFCocoaExtras/MFCocoaExtras.h> in the precompiled headers (.pch file) or in the file where you need the class or method.
+----
 
-## DISCLAIMER
+## <font color='#C3642C'>CocoaTouch+Extras</font>
 
-Not everything is documented and tested yet.  
-Work is in progress. This disclaimer should disapear quite soon ;)
+----
 
-***
+### UIBarButtonItem+Extras
 
-## Table of Content
+** One line bar button item creation **
 
-***
+- barButtonItemWithImage
 
-##MFCocoaExtras**
+----
 
-###CocoaTouch+Extras
+### UIButton+Extras
 
-* UIBarButtonItem+Extras
-    * barButtonItemWithImage
+** MacOS / iOS Button utilities **
 
-* UIButton+Extras
-    * title
-    * image
-    * setTitle
-    * setImage:
-    * setTitleColorForAllStates:
-    * setTitleForAllStates:
-    * setImageForAllStates
-* UIView+Extras
-    * imageCropped:
-    * imageRotated:
-    * imageRotatedByDegrees:
-    * imageFromView:
-    * drawCenteredOnPoint
-    * tintedImageWithColor
-    * tintedImageWithColor
-* UIView+Extras
-    * removeAllSubviews:
-    * moveByY:
-    * moveByX:
-    * moveByX:Y:
-    * moveByPoint
-    * addInViewAndResize
-    * snapshot
-    * saveSnapshotToRoll
-* NSString+MFExtras
-    * UUIDString
-    * md5
-    * sha1
-    * isValidEmail:
-    * isValidName
-    * urlEncode
-    * urlDecode
+- title
+- image
+- setTitle
+- setImage:
+- setTitleColorForAllStates:
+- setTitleForAllStates:
+- setImageForAllStates
 
-###Graphics
+----
 
-* CGExtras
-    *MFNSUITypes
-    *NSUIColor-Extras
+### UIImage+Extras
+
+- imageCropped:
+- imageRotated:
+- imageRotatedByDegrees:
+- imageFromView:
+- drawCenteredOnPoint
+- tintedImageWithColor
+- tintedImageWithColor: blendMode:
+
+### UIView+Extras
+
+- removeAllSubviews:
+- moveByY:
+- moveByX:
+- moveByX:Y:
+- moveByPoint
+- addInViewAndResize
+- snapshot
+- saveSnapshotToRoll
+
+----
+
+## <font color='#C3642C'>Graphics</font>
+
+----
+
+### CGExtras
+
+** CoreGraphics and Cocoa Geometry Utilities **
+
+**CoreGraphics**
+
+- Size Calculations
+	- GSizeWithRatio
+	- CGSizeWithRatios<br><br>
+- Rect Calculations
+	- CGRectHeaderWithRatio
+	- CGRectBottomWithRatio
+	- CGRectWithRatio
+	- CGRectWithRatios
+	- CGRectMiddle
+	- CGRectCenterOnCGRect
+
+**MacOS**
+
+- NSSizeWithRatio
+- NSRectMiddle
+- NSRectCenterOnNSRect
 
 
-###Security
+----
 
-*MFSecurity
-    *copy_mac_address
-    *AppleRootCA
-    *check_code_signature
+### MFNSUITypes
 
-##Installation
+** Cool defines to create MacOS / iOS source files **
+
+- Foundation Types
+	- NSUIRect<br><br>
+- CocoaTypes
+	- NSUIColor         
+	- NSUIColorSpace    
+	- NSUIImage         
+	- NSUIFont          
+	- NSUIControl       
+	- NSUILabel         
+	- NSUIView          
+	- NSUIViewController
+
+----
+
+### NSUIColor-Extras
+
+**A collection of MacOS / iOS color utilities**
+
+- Color as Values
+	- hexValueString
+	- webColorString
+	- longNumber
+	- longValue<br><br>
+- Color Creation
+	- colorWithHexString
+	- colorWithLongValue
+	- colorWithLongNumber
+	- colorWithCGColor<br><br>
+- Comparisons
+	- compareByLightness
+	- compareByHue
+	- compareBySaturation<br><br>
+- Color by changing alpha
+	- colorWithNoAlpha
+	- colorWithAlphaComponentMultipliedBy<br><br>
+- Accessors
+	- red
+	- green
+	- blue
+	- alpha
+
+----
+
+### MFCGCombinedColor
+
+**A standard C color class for fast hsl / rgb computations**
+
+- MFCGCombinedColorSetRGBA
+- MFCGCombinedColorSetHSL
+- MFCGRGBToHSL
+- MFCGHSLToRGB
+
+----
+
+## <font color='#C3642C'>Views</font>
+
+----
+
+### MFColorWell
+
+### MFRoundCornersView
+
+----
+
+## <font color='#C3642C'>Security</font>
+
+----
+
+### MFSecurity
+
+- copy_mac_address
+- AppleRootCA
+- check_code_signature
+
+----
+
+#<font color='#808080'>Installation</font>
 
 MFCocoaExtras is available through CocoaPods. To install it, simply add the following line to your Podfile:
 
->pod 'MFCocoaExtras'
+	pod 'MFCocoaExtras'
 
-##Author
+
+----
+
+
+#<font color='#808080'>Author</font>
 
 Tristan Leblanc <tristan@moosefactory.eu>
 
@@ -100,15 +195,15 @@ Google+     :	<https://plus.google.com/+TristanLeblanc>
 
 Link for recruiters ( Online Resume ) : <http://tristan.moosefactory.eu>
 
-***
+----
 
-##Contribute
+#<font color='#808080'>Contribute</font>
 
 If you wish to contribute, check the CONTRIBUTE<CONTRIBUTE.md> file for more information.
 
 ***
 
-##License
+#<font color='#808080'>License</font>
 
 MFCocoa is available under the MIT license. See the LICENSE file for more info.
 

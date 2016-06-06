@@ -35,18 +35,23 @@
 #if TARGET_OS_IPHONE
     #import <UIKit/UIKit.h>
 
+    #define NSUIRect            CGRect
+
     #define NSUIColor           UIColor
     #define NSUIColorSpace      UIColorSpace
 
     #define NSUIImage           UIImage
 
     #define NSUIFont            UIFont
+    #define NSUIButton          UIButton
     #define NSUIControl         UIControl
     #define NSUILabel           UILabel
     #define NSUIView            UIView
     #define NSUIViewController  UIViewController
 #else
     #import <Cocoa/Cocoa.h>
+
+    #define NSUIRect            NSRect
 
     #define NSUIColor           NSColor
     #define NSUIColorSpace      NSColorSpace
@@ -55,6 +60,7 @@
 
     #define NSUIFont            NSFont
     #define NSUIControl         NSControl
+    #define NSUIButton          NSButton
     #define NSUILabel           NSTextField
     #define NSUIView            NSView
     #define NSUIViewController  NSViewController

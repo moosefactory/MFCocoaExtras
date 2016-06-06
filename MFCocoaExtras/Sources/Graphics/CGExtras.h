@@ -28,10 +28,7 @@
  */
 
 #import <Foundation/Foundation.h>
-
-#if !BUILD_FOR_MACOS_10_7
-#include <CoreGraphics/CoreGraphics.h>
-#endif
+#import <CoreGraphics/CoreGraphics.h>
 
 #ifndef CGGEOMETRY_EXTRAS_H_
 #define CGGEOMETRY_EXTRAS_H_
@@ -41,14 +38,14 @@
 CGSize  CGSizeWithRatio(CGSize inSize,CGFloat ratio);
 CGSize  CGSizeWithRatios(CGSize inSize,CGFloat ratioh,CGFloat ratiov);
 
-CGRect CGRectHeaderWithRatio(CGRect inRect,CGFloat ratio);
-CGRect CGRectBottomWithRatio(CGRect inRect,CGFloat ratio);
+CGRect  CGRectHeaderWithRatio(CGRect inRect,CGFloat ratio);
+CGRect  CGRectBottomWithRatio(CGRect inRect,CGFloat ratio);
 
 CGRect  CGRectWithRatio(CGRect inRect,CGFloat ratio);
 CGRect  CGRectWithRatios(CGRect inRect,CGFloat ratioh,CGFloat ratiov);
 
 CGPoint CGRectMiddle(CGRect rect);
-void CGRectCenterOnCGRect(CGRect *rect,CGRect onRect);
+void    CGRectCenterOnCGRect(CGRect *rect,CGRect onRect);
 
 #pragma mark - Cocoa
 

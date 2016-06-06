@@ -27,7 +27,7 @@
  THE SOFTWARE.
  */
 
-#import "UIBarButtonItem+Extras.h"
+#import <MFCocoaExtras/UIBarButtonItem+Extras.h>
 
 @implementation UIBarButtonItem(Extras)
 

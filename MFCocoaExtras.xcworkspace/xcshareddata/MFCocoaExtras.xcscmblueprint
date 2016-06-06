@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2161E6C3A5245736C8F0DBE2E5AE426199844EB4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FF55B491FF7BA7F663B98AE5814588E1FE0AFAB8" : 0,
+    "2161E6C3A5245736C8F0DBE2E5AE426199844EB4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "631A287C-8E3E-49D4-8397-3D1C39FE29B7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FF55B491FF7BA7F663B98AE5814588E1FE0AFAB8" : "MFFoundation\/",
+    "2161E6C3A5245736C8F0DBE2E5AE426199844EB4" : "MFCocoaExtras\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MFCocoaExtras",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MFCocoaExtras.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/moosefactory\/MFCocoaExtras.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2161E6C3A5245736C8F0DBE2E5AE426199844EB4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gitlab.com\/MooseFactorySoftware\/MFFoundation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FF55B491FF7BA7F663B98AE5814588E1FE0AFAB8"
+    }
+  ]
+}

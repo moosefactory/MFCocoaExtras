@@ -27,9 +27,13 @@
  THE SOFTWARE.
  */
 
-#import "NSUIColor-Extras.h"
+#import <MFCocoaExtras/NSUIColor-Extras.h>
 
-@implementation NSUIColor (Extras)
+#if TARGET_OS_IPHONE
+@implementation UIColor (MFExtras)
+#else
+@implementation NSColor (MFExtras)
+#endif
 
 -(NSString*)hexValueString
 {
@@ -106,6 +110,10 @@
 
 +(NSUIColor*)colorWithHexString:(NSString*)hexValue
 {
+    NSString* firstChar = [hexValue substringToIndex:1];
+    if ([firstChar isEqualToString:@"#"]) {
+        hexValue = [hexValue substringFromIndex:1];
+    }
     if (hexValue.length<10) hexValue = [hexValue stringByAppendingString:@"FF"]; // Add alpha component
     NSScanner* scanner = [NSScanner scannerWithString:hexValue];
     unsigned long long value;
@@ -192,6 +200,35 @@
     alpha = alpha*0.8;
     return [NSUIColor colorWithRed:red green:green blue:blue alpha:alpha];
 }
+
+-(CGFloat)red
+{
+    CGFloat red,green,blue,alpha;
+    [self getRed:&red green:&green blue:&blue alpha:&alpha];
+    return red;
+}
+
+-(CGFloat)green
+{
+    CGFloat red,green,blue,alpha;
+    [self getRed:&red green:&green blue:&blue alpha:&alpha];
+    return green;
+}
+
+-(CGFloat)blue
+{
+    CGFloat red,green,blue,alpha;
+    [self getRed:&red green:&green blue:&blue alpha:&alpha];
+    return blue;
+}
+
+-(CGFloat)alpha
+{
+    CGFloat red,green,blue,alpha;
+    [self getRed:&red green:&green blue:&blue alpha:&alpha];
+    return alpha;
+}
+
 
 @end
 

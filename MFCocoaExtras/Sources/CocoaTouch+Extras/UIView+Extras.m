@@ -27,7 +27,7 @@
  THE SOFTWARE.
  */
 
-#import "UIView+Extras.h"
+#import <MFCocoaExtras/UIView+Extras.h>
 
 @implementation UIView (Extras)
 
