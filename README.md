@@ -3,10 +3,7 @@
 **Utility Framework for iOS and MacOS**
 
 
-This is a compilation of some of commonly used codes over the years.  
-Feel free to contact me by email at <tristan@moosefactory.eu>
-
-Cheers :)
+This is a compilation of some of commonly used codes over the years.
 
 Tristan Leblanc - MooseFactory Software  
 <https://www.moosefactory.eu>
