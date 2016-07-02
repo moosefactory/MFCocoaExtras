@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MFCocoaExtras"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "MFCocoaExtras is a cross-platofrm (iOS/MacOS) Utility Library."
   s.description      = <<-DESC
                     MFCocoaExtras is a cross-platofrm (iOS/MacOS) Utility Library build on Cocoa or CocoaTouch (UIKit) frameworks.
@@ -27,14 +27,16 @@ Pod::Spec.new do |s|
     s.osx.deployment_target = '10.6'
     s.requires_arc = true
 
-    s.ios.source_files = 'MFCocoaExtras/Sources/Graphics/*', 'MFCocoaExtras/Sources/Security/*', 'MFCocoaExtras/Sources/CocoaTouch+Extras/*'
-    s.osx.source_files = 'MFCocoaExtras/Sources/Graphics/*', 'MFCocoaExtras/Sources/Security/*'
+    s.ios.source_files = 'MFCocoaExtras/Sources/Graphics/*', 'MFCocoaExtras/Sources/Security/*', 'MFCocoaExtras/Sources/View/Security/*', 'MFCocoaExtras/Sources/CocoaTouch+Extras/*'
+    s.osx.source_files = 'MFCocoaExtras/Sources/Graphics/*', 'MFCocoaExtras/Sources/Security/*', 'MFCocoaExtras/Sources/View/Security/*'
 
     s.ios.framework = 'SystemConfiguration'
     s.osx.framework = 'SystemConfiguration'
 
-#s.dependency 'MFFoundation', '~> 1.0.5' // Umbrella framework not working due to non-modular header includes
-    s.vendored_libraries = 'libMFFoundation.a'
+s.dependency 'MFFoundation', '~> 1.0.5'
+#Umbrella framework not working due to non-modular header includes
+
+s.vendored_libraries = 'libMFFoundation.a'
 
     s.requires_arc = true
 
