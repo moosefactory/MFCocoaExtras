@@ -29,8 +29,9 @@
 
 #import <UIKit/UIKit.h>
 #import <MFCocoaExtras/UIImage+Extras.h>
+#import <MFCocoaExtras/MFNSUITypes.h>
 
-@interface UIView (Extras)
+@interface NSUIView (Extras)
 
 -(void)removeAllSubviews;
 -(void)centerInView:(UIView*)view;

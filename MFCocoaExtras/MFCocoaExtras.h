@@ -54,9 +54,12 @@ FOUNDATION_EXPORT const unsigned char MFCocoaExtrasVersionString[];
 
 #endif
 
+#import <MFCocoaExtras/MFNSUIView.h>
+
+
 // Graphics
 
-#import <MFCocoaExtras/CGExtras.h>
+#import <MFCocoaExtras/MFCGExtras.h>
 #import <MFCocoaExtras/NSUIColor-Extras.h>
 #import <MFCocoaExtras/MFNSUITypes.h>
 #import <MFCocoaExtras/MFCGCombinedColor.h>

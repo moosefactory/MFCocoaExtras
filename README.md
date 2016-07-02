@@ -70,7 +70,7 @@ Tristan Leblanc - MooseFactory Software
 
 ----
 
-### CGExtras
+### MFCGExtras
 
 ** CoreGraphics and Cocoa Geometry Utilities **
 

@@ -7,7 +7,7 @@
 //
 
 #import "MFRoundCornersView.h"
-
+#import <MFFoundation/MFMathUtilities.h>
 
 @implementation MFRoundCornersView
 
@@ -29,6 +29,9 @@
 -(void)awakeFromNib
 {
     [super awakeFromNib];
+#if TARGET_OS_MAC
+    self.wantsLayer = YES;
+#endif
     [self initDefaultDrawingAttributes];
 }
 

@@ -28,7 +28,7 @@
  */
 
 #import <MFCocoaExtras/UIImage+Extras.h>
-#import <MFCocoaExtras/CGExtras.h>
+#import <MFCocoaExtras/MFCGExtras.h>
 
 @implementation UIImage (Extras)
 

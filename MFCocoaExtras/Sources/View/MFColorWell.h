@@ -6,8 +6,7 @@
 //  Copyright (c) 2015 MooseFactory. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <MFCocoaExtras/MFCocoaExtras.h>
+#import <MFCocoaExtras/MFNSUIView.h>
 
 @protocol MFColorWellDelegate <NSObject>
 
@@ -15,9 +14,9 @@
 
 @end
 
-@interface MFColorWell : NSUIControl
+@interface MFColorWell : MFNSUIView
 
-@property(nonatomic,strong) UIColor* color;
+@property(nonatomic,strong) NSUIColor* color;
 @property(nonatomic,strong) IBOutlet id<MFColorWellDelegate> delegate;
 
 @end

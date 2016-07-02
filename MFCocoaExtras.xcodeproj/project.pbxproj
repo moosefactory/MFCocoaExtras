@@ -9,16 +9,17 @@
 /* Begin PBXBuildFile section */
 		BC3EB0891CFF8C6700C02BBD /* MFCocoaExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3EB07F1CFF8C6600C02BBD /* MFCocoaExtras.framework */; };
 		BC3EB08E1CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3EB08D1CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.m */; };
-		BC41AAEE1D0304C90050F226 /* CGExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54BB1C9751980014A037 /* CGExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC41AAEE1D0304C90050F226 /* MFCGExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54BB1C9751980014A037 /* MFCGExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC41AAEF1D0304CD0050F226 /* NSUIColor-Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54BD1C9751980014A037 /* NSUIColor-Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC41AAF01D0304D00050F226 /* MFNSUITypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54C11C9751980014A037 /* MFNSUITypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC41AAF11D0304D70050F226 /* MFSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54C31C9751980014A037 /* MFSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC45B4C61CFF92170070F608 /* CGExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54BB1C9751980014A037 /* CGExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC45B4C61CFF92170070F608 /* MFCGExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54BB1C9751980014A037 /* MFCGExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC45B4C71CFF92170070F608 /* NSUIColor-Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54BD1C9751980014A037 /* NSUIColor-Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC45B4C81CFF92170070F608 /* MFNSUITypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54C11C9751980014A037 /* MFNSUITypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC45B4C91CFF921F0070F608 /* MFSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54C31C9751980014A037 /* MFSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC45B4CA1CFF92D80070F608 /* MFCocoaExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC349CA61CCB9E6400BFF28D /* MFCocoaExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC45B4CB1CFF92D90070F608 /* MFCocoaExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC349CA61CCB9E6400BFF28D /* MFCocoaExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC67D9531D28463B00095929 /* libMFFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC67D9521D28463B00095929 /* libMFFoundation.a */; };
 		BC7E70A01D04E3CB00FCBDA0 /* MFColorWell.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7E709E1D04E3CB00FCBDA0 /* MFColorWell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC7E70A11D04E3CB00FCBDA0 /* MFColorWell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7E709F1D04E3CB00FCBDA0 /* MFColorWell.m */; };
 		BC7E70A21D04E3D500FCBDA0 /* MFColorWell.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7E709E1D04E3CB00FCBDA0 /* MFColorWell.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,15 +34,19 @@
 		BC9B54CA1C9751980014A037 /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54B71C9751980014A037 /* UIImage+Extras.m */; };
 		BC9B54CB1C9751980014A037 /* UIView+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B54B81C9751980014A037 /* UIView+Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC9B54CC1C9751980014A037 /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54B91C9751980014A037 /* UIView+Extras.m */; };
-		BC9B54CE1C9751980014A037 /* CGExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54BC1C9751980014A037 /* CGExtras.m */; };
+		BC9B54CE1C9751980014A037 /* MFCGExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54BC1C9751980014A037 /* MFCGExtras.m */; };
 		BC9B54D01C9751980014A037 /* NSUIColor-Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54BE1C9751980014A037 /* NSUIColor-Extras.m */; };
 		BC9B54D51C9751980014A037 /* MFSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54C41C9751980014A037 /* MFSecurity.m */; };
-		BCBD331E1D049A650065BBF5 /* MFCGCombinedColor.c in Sources */ = {isa = PBXBuildFile; fileRef = BCBD331C1D049A650065BBF5 /* MFCGCombinedColor.c */; };
-		BCBD331F1D049A650065BBF5 /* MFCGCombinedColor.c in Sources */ = {isa = PBXBuildFile; fileRef = BCBD331C1D049A650065BBF5 /* MFCGCombinedColor.c */; };
+		BCB42AB51D28419F0040C4F1 /* libMFFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB42AB41D28419F0040C4F1 /* libMFFoundation.a */; };
+		BCBD331E1D049A650065BBF5 /* MFCGCombinedColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBD331C1D049A650065BBF5 /* MFCGCombinedColor.m */; };
+		BCBD331F1D049A650065BBF5 /* MFCGCombinedColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBD331C1D049A650065BBF5 /* MFCGCombinedColor.m */; };
 		BCBD33201D049A650065BBF5 /* MFCGCombinedColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BCBD331D1D049A650065BBF5 /* MFCGCombinedColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCBD33211D049A650065BBF5 /* MFCGCombinedColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BCBD331D1D049A650065BBF5 /* MFCGCombinedColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCF40A581D049FD200071612 /* libMFFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF40A571D049FD200071612 /* libMFFoundation.a */; };
-		BCF40A5A1D049FD800071612 /* libMFFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF40A591D049FD800071612 /* libMFFoundation.a */; };
+		BCDDA3F61D0605A2003EF6A2 /* MFNSUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDDA3F41D0605A2003EF6A2 /* MFNSUIView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCDDA3F71D0605A2003EF6A2 /* MFNSUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDA3F51D0605A2003EF6A2 /* MFNSUIView.m */; };
+		BCDDA4731D062398003EF6A2 /* NSUIColor-Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B54BE1C9751980014A037 /* NSUIColor-Extras.m */; };
+		BCDDA4741D06333A003EF6A2 /* MFNSUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDA3F51D0605A2003EF6A2 /* MFNSUIView.m */; };
+		BCDDA4751D06333D003EF6A2 /* MFNSUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDDA3F41D0605A2003EF6A2 /* MFNSUIView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCF40A6E1D04BC3C00071612 /* MFRoundCornersView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCF40A6C1D04BC3C00071612 /* MFRoundCornersView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCF40A6F1D04BC3C00071612 /* MFRoundCornersView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCF40A6C1D04BC3C00071612 /* MFRoundCornersView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCF40A701D04BC3C00071612 /* MFRoundCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF40A6D1D04BC3C00071612 /* MFRoundCornersView.m */; };
@@ -72,7 +77,7 @@
 		BC3EB0881CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFCocoaExtras_MacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3EB08D1CFF8C6700C02BBD /* MFCocoaExtras_MacOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFCocoaExtras_MacOSTests.m; sourceTree = "<group>"; };
 		BC3EB08F1CFF8C6700C02BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC41AB091D03111C0050F226 /* libMFFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMFFoundation.a; path = "../MFFoundation/MFFoundation/build/Debug-iphoneos/libMFFoundation.a"; sourceTree = "<group>"; };
+		BC67D9521D28463B00095929 /* libMFFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMFFoundation.a; path = "../../../../../Library/Developer/Xcode/DerivedData/MFCocoaExtras-dqbybfdmkjjkgeducoaqpxgcxaur/Build/Products/Debug/libMFFoundation.a"; sourceTree = "<group>"; };
 		BC7E709E1D04E3CB00FCBDA0 /* MFColorWell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFColorWell.h; sourceTree = "<group>"; };
 		BC7E709F1D04E3CB00FCBDA0 /* MFColorWell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFColorWell.m; sourceTree = "<group>"; };
 		BC7E70B31D04FE5B00FCBDA0 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = "<group>"; };
@@ -88,8 +93,8 @@
 		BC9B54B71C9751980014A037 /* UIImage+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extras.m"; sourceTree = "<group>"; };
 		BC9B54B81C9751980014A037 /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extras.h"; sourceTree = "<group>"; };
 		BC9B54B91C9751980014A037 /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
-		BC9B54BB1C9751980014A037 /* CGExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGExtras.h; sourceTree = "<group>"; };
-		BC9B54BC1C9751980014A037 /* CGExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGExtras.m; sourceTree = "<group>"; };
+		BC9B54BB1C9751980014A037 /* MFCGExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCGExtras.h; sourceTree = "<group>"; };
+		BC9B54BC1C9751980014A037 /* MFCGExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCGExtras.m; sourceTree = "<group>"; };
 		BC9B54BD1C9751980014A037 /* NSUIColor-Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUIColor-Extras.h"; sourceTree = "<group>"; };
 		BC9B54BE1C9751980014A037 /* NSUIColor-Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUIColor-Extras.m"; sourceTree = "<group>"; };
 		BC9B54C11C9751980014A037 /* MFNSUITypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFNSUITypes.h; sourceTree = "<group>"; };
@@ -98,15 +103,17 @@
 		BC9B54D91C9757650014A037 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BC9B54DA1C9757650014A037 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BC9B54DB1C9757650014A037 /* CONTRIBUTE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTE.md; sourceTree = "<group>"; };
-		BCBD331C1D049A650065BBF5 /* MFCGCombinedColor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MFCGCombinedColor.c; sourceTree = "<group>"; };
+		BCB42AB41D28419F0040C4F1 /* libMFFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMFFoundation.a; path = "../../../../../Library/Developer/Xcode/DerivedData/MFCocoaExtras-dqbybfdmkjjkgeducoaqpxgcxaur/Build/Products/Debug-iphonesimulator/libMFFoundation.a"; sourceTree = "<group>"; };
+		BCBD331C1D049A650065BBF5 /* MFCGCombinedColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFCGCombinedColor.m; sourceTree = "<group>"; };
 		BCBD331D1D049A650065BBF5 /* MFCGCombinedColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCGCombinedColor.h; sourceTree = "<group>"; };
+		BCBD38341D06A0640086756E /* libMFFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMFFoundation.a; sourceTree = "<group>"; };
 		BCBE0A091CA02E8500C91B82 /* appledoc.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = appledoc.sh; sourceTree = "<group>"; };
 		BCBE0A0A1CA02E8500C91B82 /* MFCocoaExtras-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MFCocoaExtras-iOS-Info.plist"; sourceTree = "<group>"; };
 		BCBE0A0B1CA02E8500C91B82 /* MFCocoaExtras-MacOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MFCocoaExtras-MacOS-Info.plist"; sourceTree = "<group>"; };
 		BCBE0A0E1CA02E8500C91B82 /* readme-appledoc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "readme-appledoc.md"; sourceTree = "<group>"; };
 		BCBE0A101CA034CA00C91B82 /* MFCocoaExtras.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MFCocoaExtras.podspec; sourceTree = SOURCE_ROOT; };
-		BCF40A571D049FD200071612 /* libMFFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMFFoundation.a; path = "../MFFoundation/build/Debug-iphoneos/libMFFoundation.a"; sourceTree = "<group>"; };
-		BCF40A591D049FD800071612 /* libMFFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMFFoundation.a; path = "../MFFoundation/build/Debug-iphoneos/libMFFoundation.a"; sourceTree = "<group>"; };
+		BCDDA3F41D0605A2003EF6A2 /* MFNSUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFNSUIView.h; sourceTree = "<group>"; };
+		BCDDA3F51D0605A2003EF6A2 /* MFNSUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFNSUIView.m; sourceTree = "<group>"; };
 		BCF40A6C1D04BC3C00071612 /* MFRoundCornersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFRoundCornersView.h; sourceTree = "<group>"; };
 		BCF40A6D1D04BC3C00071612 /* MFRoundCornersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFRoundCornersView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF40A5A1D049FD800071612 /* libMFFoundation.a in Frameworks */,
+				BC67D9531D28463B00095929 /* libMFFoundation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF40A581D049FD200071612 /* libMFFoundation.a in Frameworks */,
+				BCB42AB51D28419F0040C4F1 /* libMFFoundation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +174,7 @@
 		BC9B548C1C97505A0014A037 = {
 			isa = PBXGroup;
 			children = (
+				BCBD38341D06A0640086756E /* libMFFoundation.a */,
 				BC9B54D91C9757650014A037 /* README.md */,
 				BC9B54DA1C9757650014A037 /* LICENSE */,
 				BC9B54DB1C9757650014A037 /* CONTRIBUTE.md */,
@@ -239,12 +247,14 @@
 		BC9B54BA1C9751980014A037 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
-				BC9B54BB1C9751980014A037 /* CGExtras.h */,
-				BC9B54BC1C9751980014A037 /* CGExtras.m */,
+				BC9B54BB1C9751980014A037 /* MFCGExtras.h */,
+				BC9B54BC1C9751980014A037 /* MFCGExtras.m */,
+				BCDDA3F41D0605A2003EF6A2 /* MFNSUIView.h */,
+				BCDDA3F51D0605A2003EF6A2 /* MFNSUIView.m */,
 				BC9B54C11C9751980014A037 /* MFNSUITypes.h */,
 				BC9B54BD1C9751980014A037 /* NSUIColor-Extras.h */,
 				BC9B54BE1C9751980014A037 /* NSUIColor-Extras.m */,
-				BCBD331C1D049A650065BBF5 /* MFCGCombinedColor.c */,
+				BCBD331C1D049A650065BBF5 /* MFCGCombinedColor.m */,
 				BCBD331D1D049A650065BBF5 /* MFCGCombinedColor.h */,
 			);
 			path = Graphics;
@@ -285,9 +295,8 @@
 		F2FBB107CF445525FA3C8E2C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BCF40A591D049FD800071612 /* libMFFoundation.a */,
-				BCF40A571D049FD200071612 /* libMFFoundation.a */,
-				BC41AB091D03111C0050F226 /* libMFFoundation.a */,
+				BC67D9521D28463B00095929 /* libMFFoundation.a */,
+				BCB42AB41D28419F0040C4F1 /* libMFFoundation.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -304,8 +313,9 @@
 				BC45B4C71CFF92170070F608 /* NSUIColor-Extras.h in Headers */,
 				BCF40A6F1D04BC3C00071612 /* MFRoundCornersView.h in Headers */,
 				BC45B4C81CFF92170070F608 /* MFNSUITypes.h in Headers */,
-				BC45B4C61CFF92170070F608 /* CGExtras.h in Headers */,
+				BC45B4C61CFF92170070F608 /* MFCGExtras.h in Headers */,
 				BCBD33211D049A650065BBF5 /* MFCGCombinedColor.h in Headers */,
+				BCDDA3F61D0605A2003EF6A2 /* MFNSUIView.h in Headers */,
 				BC45B4C91CFF921F0070F608 /* MFSecurity.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,11 +326,12 @@
 			files = (
 				BCBD33201D049A650065BBF5 /* MFCGCombinedColor.h in Headers */,
 				BC7E70A01D04E3CB00FCBDA0 /* MFColorWell.h in Headers */,
+				BCDDA4751D06333D003EF6A2 /* MFNSUIView.h in Headers */,
 				BC45B4CA1CFF92D80070F608 /* MFCocoaExtras.h in Headers */,
 				BC41AAF01D0304D00050F226 /* MFNSUITypes.h in Headers */,
 				BCF40A6E1D04BC3C00071612 /* MFRoundCornersView.h in Headers */,
 				BC41AAEF1D0304CD0050F226 /* NSUIColor-Extras.h in Headers */,
-				BC41AAEE1D0304C90050F226 /* CGExtras.h in Headers */,
+				BC41AAEE1D0304C90050F226 /* MFCGExtras.h in Headers */,
 				BC41AAF11D0304D70050F226 /* MFSecurity.h in Headers */,
 				BC9B54C51C9751980014A037 /* UIBarButtonItem+Extras.h in Headers */,
 				BC9B54C91C9751980014A037 /* UIImage+Extras.h in Headers */,
@@ -432,6 +443,7 @@
 				TargetAttributes = {
 					BC3EB07E1CFF8C6600C02BBD = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VMXFN634RR;
 					};
 					BC3EB0871CFF8C6700C02BBD = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -505,7 +517,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCBD331F1D049A650065BBF5 /* MFCGCombinedColor.c in Sources */,
+				BCBD331F1D049A650065BBF5 /* MFCGCombinedColor.m in Sources */,
+				BCDDA3F71D0605A2003EF6A2 /* MFNSUIView.m in Sources */,
+				BCDDA4731D062398003EF6A2 /* NSUIColor-Extras.m in Sources */,
 				BC7E70A31D04E3D500FCBDA0 /* MFColorWell.m in Sources */,
 				BCF40A711D04BC3C00071612 /* MFRoundCornersView.m in Sources */,
 			);
@@ -524,13 +538,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9B54D01C9751980014A037 /* NSUIColor-Extras.m in Sources */,
-				BCBD331E1D049A650065BBF5 /* MFCGCombinedColor.c in Sources */,
-				BC9B54CE1C9751980014A037 /* CGExtras.m in Sources */,
+				BCBD331E1D049A650065BBF5 /* MFCGCombinedColor.m in Sources */,
+				BC9B54CE1C9751980014A037 /* MFCGExtras.m in Sources */,
 				BC9B54D51C9751980014A037 /* MFSecurity.m in Sources */,
 				BC7E70A11D04E3CB00FCBDA0 /* MFColorWell.m in Sources */,
 				BC9B54C81C9751980014A037 /* UIButton+Extras.m in Sources */,
 				BC9B54CC1C9751980014A037 /* UIView+Extras.m in Sources */,
 				BC9B54CA1C9751980014A037 /* UIImage+Extras.m in Sources */,
+				BCDDA4741D06333A003EF6A2 /* MFNSUIView.m in Sources */,
 				BCF40A701D04BC3C00071612 /* MFRoundCornersView.m in Sources */,
 				BC9B54C61C9751980014A037 /* UIBarButtonItem+Extras.m in Sources */,
 			);
@@ -564,7 +579,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = $inherited;
 				DEFINES_MODULE = YES;
@@ -574,9 +589,13 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = MFCocoaExtras_MacOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.MFCocoaExtras-MacOS";
 				PRODUCT_NAME = MFCocoaExtras;
 				SDKROOT = macosx;
@@ -588,7 +607,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = $inherited;
 				DEFINES_MODULE = YES;
@@ -598,9 +617,13 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = MFCocoaExtras_MacOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.MFCocoaExtras-MacOS";
 				PRODUCT_NAME = MFCocoaExtras;
 				SDKROOT = macosx;
@@ -657,11 +680,14 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1.0.2;
+				CURRENT_PROJECT_VERSION = 1.0.3;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/MFCocoaExtras\"/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/MFCocoaExtras\"/**",
+					"\"$(SRCROOT)/../MFFoundation/MFFoundation\"/**",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -705,11 +731,14 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1.0.2;
+				CURRENT_PROJECT_VERSION = 1.0.3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/MFCocoaExtras\"/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/MFCocoaExtras\"/**",
+					"\"$(SRCROOT)/../MFFoundation/MFFoundation\"/**",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -746,6 +775,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-Load_all",
@@ -777,6 +810,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-Load_all",

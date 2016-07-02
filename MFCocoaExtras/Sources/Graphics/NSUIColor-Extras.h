@@ -36,6 +36,7 @@
 @interface NSColor (MFExtras)
 #endif
 */
+
 @interface NSUIColor (MFExtras)
 
 #pragma mark ---- Value Getters ----

@@ -7,7 +7,7 @@
 		<key>MFCocoaExtras-MacOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>4</integer>
 		</dict>
 		<key>MFCocoaExtras-iOS.xcscheme</key>
 		<dict>
@@ -17,7 +17,7 @@
 		<key>MFCocoaExtrasDocs.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<key>MFCocoaExtras_MacOSTests.xcscheme</key>
 		<dict>

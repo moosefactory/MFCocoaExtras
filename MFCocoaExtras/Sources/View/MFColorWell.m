@@ -6,7 +6,8 @@
 //  Copyright (c) 2015 MooseFactory. All rights reserved.
 //
 
-#import "MFColorWell.h"
+#import <MFCocoaExtras/MFColorWell.h>
+#import <MFCocoaExtras/MFCGCombinedColor.h>
 
 @implementation MFColorWell
 
@@ -19,39 +20,35 @@
 -(void)drawRect:(CGRect)rect
 {
     CGRect bnd = self.bounds;
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    
+    CGContextRef ctx = NSUIGetCurrentContext;
     if (!_color) {
         [self drawColor:[[NSUIColor blackColor] colorWithAlphaComponent:0.0f]];
     } else {
         [self drawColor:_color];
-        CGContextFillRect(ctx, bnd);
+        //CGContextFillRect(ctx, bnd);
     }
     [[NSUIColor blackColor] setStroke];
     CGContextStrokeRect(ctx, bnd);
 }
 
+
 -(void)drawColor:(NSUIColor*)inColor
 {
     CGRect frame = self.bounds;
-    
-    UIBezierPath* path = [UIBezierPath bezierPath];
-    [path moveToPoint:frame.origin];
-    [path addLineToPoint:CGPointMake(frame.origin.x,frame.size.height)];
-    [path addLineToPoint:CGPointMake(frame.size.width,frame.origin.y)];
-    [path closePath];
-
-    UIBezierPath* alphaPath = [UIBezierPath bezierPath];
-    [alphaPath moveToPoint:CGPointMake(frame.size.width,frame.size.height)];
-    [alphaPath addLineToPoint:CGPointMake(frame.origin.x,frame.size.height)];
-    [alphaPath addLineToPoint:CGPointMake(frame.size.width,frame.origin.y)];
-    [alphaPath closePath];
-
-    NSUIColor* fullColor = [inColor colorWithNoAlpha];
-    
-    [fullColor setFill];
-    [path fill];
-    [inColor setFill];
-    [alphaPath fill];
+    CGContextRef ctx = NSUIGetCurrentContext;
+    CGMutablePathRef path = CGPathCreateMutable();
+    CGPathMoveToPoint(path, NULL, frame.origin.x,frame.origin.y);
+    CGPathAddLineToPoint(path, NULL,frame.origin.x,frame.size.height);
+    CGPathAddLineToPoint(path, NULL,frame.size.width,frame.origin.y);
+    CGPathCloseSubpath(path);
+    CGContextAddPath(ctx, path);
+    CGContextSetFillColorWithColor(ctx,CGColorCreate(CGColorSpaceCreateDeviceRGB(), MFCG_BlackColor));
+    CGContextFillPath(ctx);
+    CGContextSetFillColorWithColor(ctx,self.color.CGColor);
+    CGContextFillRect(ctx,frame);
+    CGContextSetStrokeColor(ctx, MFCG_BlackColor);
+    CGContextStrokeRect(ctx, self.bounds);
 }
 
 #if TARGET_OS_IPHONE

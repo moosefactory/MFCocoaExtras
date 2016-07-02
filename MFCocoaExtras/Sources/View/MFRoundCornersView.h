@@ -6,9 +6,9 @@
 //  Copyright 2010 MooseFactory. All rights reserved.
 //
 
-#import <MFCocoaExtras/MFCocoaExtras.h>
+#import <MFCocoaExtras/MFNSUIView.h>
 
-@interface MFRoundCornersView : NSUIView
+@interface MFRoundCornersView : MFNSUIView
 
 @property (nonatomic,assign) CGFloat    cornerRadius;
 @property (nonatomic,assign) CGFloat    borderWidth;

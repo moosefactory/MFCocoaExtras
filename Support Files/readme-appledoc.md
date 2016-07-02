@@ -73,7 +73,7 @@ Work is in progress. This disclaimer should disapear quite soon ;)
 
 ###Graphics
 
-* CGExtras
+* MFCGExtras
     *MFNSUITypes
     *NSUIColor-Extras
 

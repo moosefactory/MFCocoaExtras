@@ -24,15 +24,19 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/moosefactory_eu'
 
     s.ios.deployment_target = '7.0'
-    s.osx.deployment_target = '10.7'
+    s.osx.deployment_target = '10.6'
     s.requires_arc = true
 
     s.ios.source_files = 'MFCocoaExtras/Sources/Graphics/*', 'MFCocoaExtras/Sources/Security/*', 'MFCocoaExtras/Sources/CocoaTouch+Extras/*'
     s.osx.source_files = 'MFCocoaExtras/Sources/Graphics/*', 'MFCocoaExtras/Sources/Security/*'
 
-    s.framework    = 'SystemConfiguration'
+    s.ios.framework = 'SystemConfiguration'
+    s.osx.framework = 'SystemConfiguration'
+
+#s.dependency 'MFFoundation', '~> 1.0.5' // Umbrella framework not working due to non-modular header includes
+    s.vendored_libraries = 'libMFFoundation.a'
+
     s.requires_arc = true
 
-    s.dependency 'MFFoundation', '~> 1.0.3'
 
 end

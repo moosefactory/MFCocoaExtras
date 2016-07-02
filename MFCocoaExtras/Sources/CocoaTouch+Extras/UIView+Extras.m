@@ -29,7 +29,7 @@
 
 #import <MFCocoaExtras/UIView+Extras.h>
 
-@implementation UIView (Extras)
+@implementation NSUIView (Extras)
 
 -(void)removeAllSubviews
 {
@@ -88,6 +88,7 @@
     self.bounds = frame;
     self.frame = frame;
 }
+
 
 -(UIImage*)snapshot
 {

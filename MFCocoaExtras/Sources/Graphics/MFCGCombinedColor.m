@@ -29,6 +29,7 @@
 
 #import <MFCocoaExtras/MFCGCombinedColor.h>
 #import <MFFoundation/MFMathUtilities.h>
+#import <math.h>
 
 const MFCGFloat MFCG_BlackColor[] = {0.0f, 0.0f, 0.0f, 1.0f };
 const MFCGFloat MFCG_DarkGrayColor[] = {0.25f, 0.25f, 0.25f, 1.0f };

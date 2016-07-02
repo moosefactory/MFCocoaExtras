@@ -37,6 +37,8 @@
 
     #define NSUIRect            CGRect
 
+    #define NSUIGetCurrentContext UIGraphicsGetCurrentContext()
+
     #define NSUIColor           UIColor
     #define NSUIColorSpace      UIColorSpace
 
@@ -50,8 +52,9 @@
     #define NSUIViewController  UIViewController
 #else
     #import <Cocoa/Cocoa.h>
-
     #define NSUIRect            NSRect
+    #define NSUIGraphicsContext NSGraphicsContext
+    #define NSUIGetCurrentContext [[NSGraphicsContext currentContext] graphicsPort]
 
     #define NSUIColor           NSColor
     #define NSUIColorSpace      NSColorSpace

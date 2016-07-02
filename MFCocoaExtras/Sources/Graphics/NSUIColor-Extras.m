@@ -29,11 +29,8 @@
 
 #import <MFCocoaExtras/NSUIColor-Extras.h>
 
-#if TARGET_OS_IPHONE
-@implementation UIColor (MFExtras)
-#else
-@implementation NSColor (MFExtras)
-#endif
+//#if TARGET_OS_IPHONE
+@implementation NSUIColor (MFExtras)
 
 -(NSString*)hexValueString
 {
@@ -90,10 +87,10 @@
 +(NSUIColor*)colorWithLongABGRValue:(long)inValue
 {
 	float	comps[4];
+	comps[0] = ( ( inValue & 0xFF000000 ) >> 24 ) / 255.0f;
 	comps[1] = ( ( inValue & 0x00FF0000 ) >> 16 ) / 255.0f;
 	comps[2] = ( ( inValue & 0x0000FF00 ) >> 8 ) / 255.0f;
 	comps[3] = ( inValue & 0x000000FF ) / 255.0f;
-	comps[0] = ( ( inValue & 0xFF000000 ) >> 24 ) / 255.0f;
 	
 #if TARGET_OS_IPHONE
     return [ NSUIColor colorWithRed:comps[0] green:comps[1] blue:comps[2] alpha:comps[3] ];
@@ -114,7 +111,7 @@
     if ([firstChar isEqualToString:@"#"]) {
         hexValue = [hexValue substringFromIndex:1];
     }
-    if (hexValue.length<10) hexValue = [hexValue stringByAppendingString:@"FF"]; // Add alpha component
+    if (hexValue.length<8) hexValue = [hexValue stringByAppendingString:@"FF"]; // Add alpha component
     NSScanner* scanner = [NSScanner scannerWithString:hexValue];
     unsigned long long value;
     [scanner scanHexLongLong:&value];
