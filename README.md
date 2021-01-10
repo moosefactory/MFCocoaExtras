@@ -13,15 +13,6 @@ Tristan Leblanc - MooseFactory Software
 
 To use MFCocoaExtras in your project, add #import <MFCocoaExtras/MFCocoaExtras.h> in the precompiled headers (.pch file) or in the file where you need the class or method.
 
-## DISCLAIMER
-
-Not everything is documented and tested yet.  
-Work is in progress. This disclaimer should disapear quite soon ;)
-
-***
-
-## Table of Content
-
 ***
 
 ## MFCocoaExtras**
