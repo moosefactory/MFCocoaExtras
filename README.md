@@ -1,14 +1,8 @@
 # MFCocoaExtras
 
-![MacDown logo](https://www.moosefactory.eu/resources/MooseFactoryRoundLogo.png)
-
 **Utility Framework for iOS or MacOS**
 
-
-This is a compilation of some of commonly used codes over the years.  
-Feel free to contact me by email at <tristan@moosefactory.eu>
-
-Cheers :)
+This is a compilation of some of commonly used Cocoa codes.  
 
 Tristan Leblanc - MooseFactory Software  
 <https://www.moosefactory.eu>
@@ -53,6 +47,7 @@ Work is in progress. This disclaimer should disapear quite soon ;)
     * drawCenteredOnPoint
     * tintedImageWithColor
     * tintedImageWithColor
+    
 * UIView+Extras
     * removeAllSubviews:
     * moveByY:
@@ -62,6 +57,7 @@ Work is in progress. This disclaimer should disapear quite soon ;)
     * addInViewAndResize
     * snapshot
     * saveSnapshotToRoll
+    
 * NSString+MFExtras
     * UUIDString
     * md5
@@ -76,29 +72,23 @@ Work is in progress. This disclaimer should disapear quite soon ;)
 * CGExtras
     *MFNSUITypes
     *NSUIColor-Extras
-
-
-###Security
+    
+### Security
 
 * MFSecurity
-    *copy_mac_address
-    *AppleRootCA
-    *check_code_signature
+    * copy_mac_address
+    * AppleRootCA
+    * check_code_signature
 
 ## Installation
 
-MFCocoaExtras is available through CocoaPods. To install it, simply add the following line to your Podfile:
+**MFCocoaExtras** is available through CocoaPods. To install it, simply add the following line to your Podfile:
 
 >pod 'MFCocoaExtras'
 
 ## Author
 
 Tristan Leblanc <tristan@moosefactory.eu>
-
-Twitter     :	<https://www.twitter.com/tristanleblanc>  
-Google+     :	<https://plus.google.com/+TristanLeblanc>  
-
-Link for recruiters ( Online Resume ) : <http://tristan.moosefactory.eu>
 
 ***
 
@@ -114,4 +104,4 @@ MFCocoa is available under the MIT license. See the LICENSE file for more info.
 
 ***
 
-*Preliminary document - Updated 03/14/2016*
+*Updated 03/14/2016*
