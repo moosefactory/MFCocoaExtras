@@ -30,9 +30,9 @@ Work is in progress. This disclaimer should disapear quite soon ;)
 
 ***
 
-##MFCocoaExtras**
+## MFCocoaExtras**
 
-###CocoaTouch+Extras
+### CocoaTouch+Extras
 
 * UIBarButtonItem+Extras
     * barButtonItemWithImage
@@ -71,7 +71,7 @@ Work is in progress. This disclaimer should disapear quite soon ;)
     * urlEncode
     * urlDecode
 
-###Graphics
+### Graphics
 
 * CGExtras
     *MFNSUITypes
@@ -80,18 +80,18 @@ Work is in progress. This disclaimer should disapear quite soon ;)
 
 ###Security
 
-*MFSecurity
+* MFSecurity
     *copy_mac_address
     *AppleRootCA
     *check_code_signature
 
-##Installation
+## Installation
 
 MFCocoaExtras is available through CocoaPods. To install it, simply add the following line to your Podfile:
 
 >pod 'MFCocoaExtras'
 
-##Author
+## Author
 
 Tristan Leblanc <tristan@moosefactory.eu>
 
@@ -102,13 +102,13 @@ Link for recruiters ( Online Resume ) : <http://tristan.moosefactory.eu>
 
 ***
 
-##Contribute
+## Contribute
 
 If you wish to contribute, check the CONTRIBUTE<CONTRIBUTE.md> file for more information.
 
 ***
 
-##License
+## License
 
 MFCocoa is available under the MIT license. See the LICENSE file for more info.
 
